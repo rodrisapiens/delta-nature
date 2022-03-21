@@ -1,0 +1,79 @@
+.NavIcon {
+    position: fixed;
+    top: 1%;
+    left: 85%;
+    height: -moz-fit-content;
+    background-color: transparent;
+    border-style: none;
+    outline: none;
+    z-index: 3;
+}
+.trunks {
+    position: absolute;
+    #bottomTrunk {
+        animation: crossBB 1s ease forwards;
+        @keyframes crossBB {
+            0%{
+                transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+
+            }
+            100% {
+                transform: rotateZ(0) translateY(0) translateX(0);
+            }
+        }
+    }
+    #midTrunk {
+        animation: crossMB 1s ease forwards;
+        @keyframes crossMB {
+            0%{
+                transform: translateY(2em);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
+    #topTrunk {
+        animation: crossTB 1s ease forwards;
+        @keyframes crossTB {
+            0%{
+                transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            }
+            
+            100% {
+                transform: rotateZ(0) translateY(0) translateX(0);
+            }
+        }
+    }
+}
+rect {
+    fill: transparent;
+}
+.crossTrunks {
+    position: absolute;
+    z-index: 3;
+    #bottomTrunk {
+        animation: crossB 1s ease forwards;
+        @keyframes crossB {
+            100% {
+                transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+            }
+        }
+    }
+    #midTrunk {
+        animation: crossM 1s ease forwards;
+        @keyframes crossM {
+            100% {
+                transform: translateY(2.5em);
+            }
+        }
+    }
+    #topTrunk {
+        animation: crossT 1s ease forwards;
+        @keyframes crossT {
+            100% {
+                transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            }
+        }
+    }
+}

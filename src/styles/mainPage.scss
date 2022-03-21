@@ -1,0 +1,79 @@
+.meet {
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+    animation: meet 2s ease forwards;
+    @keyframes meet {
+        0% {
+            letter-spacing: 0.1em;
+            opacity: 0;
+        }
+        100% {
+            letter-spacing: normal;
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes row {
+    100% {
+        transform: rotateZ(10deg);
+    }
+}
+#Group_2 {
+    transform: translateY(63px);
+}
+
+.CanoeAndGuyy {
+    top: 60vh;
+    left: 80vw;
+    width: 5em;
+    position: absolute;
+    transform-origin: center;
+    z-index: 1;
+    #shadows {
+        > path {
+            fill: #b7b8ba;
+        }
+        animation: shadows 1s ease-in-out infinite;
+        @keyframes shadows {
+            100% {
+                transform: translateY(0.5em);
+            }
+        }
+    }
+    #boat {
+        fill: #ce7f41;
+        transform-origin: center;
+        animation: boat 2s ease-in-out infinite;
+        @keyframes boat {
+            0% {
+                transform: rotateZ(-5deg);
+            }
+            50% {
+                transform: rotateZ(5deg);
+            }
+            100% {
+                transform: rotateZ(-5deg);
+            }
+        }
+    }
+}
+.bg {
+    height: 120vh;
+    width: 120%;
+    top: -10vh;
+    left: -10%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+.bgConteiner {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}

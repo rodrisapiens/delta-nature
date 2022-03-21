@@ -1,0 +1,50 @@
+.MobileNavBoard {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    position: fixed;
+    z-index: 2;
+    animation: apear 1s ease forwards;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    @keyframes apear {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+}
+.navBtn {
+    background-color: transparent;
+    border: none;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 10vh;
+    font-size: 2em;
+    gap: .5em;
+}
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: black;
+}
+.MobileNavBar
+{
+    height: 50vh;
+    display: grid;
+    justify-content: center;
+align-items: center;
+animation: apear 1s forwards;
+}
+.arrowHead
+{
+    width: .5em;
+    transform: rotateZ(-90deg);
+    margin-top: .1em;
+}

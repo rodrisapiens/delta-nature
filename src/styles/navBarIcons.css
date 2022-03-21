@@ -1,0 +1,162 @@
+.NavIcon {
+  position: fixed;
+  top: 1%;
+  left: 85%;
+  height: -moz-fit-content;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  z-index: 3;
+}
+
+.trunks {
+  position: absolute;
+}
+
+.trunks #bottomTrunk {
+  -webkit-animation: crossBB 1s ease forwards;
+          animation: crossBB 1s ease forwards;
+}
+
+@-webkit-keyframes crossBB {
+  0% {
+    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+  }
+  100% {
+    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
+            transform: rotateZ(0) translateY(0) translateX(0);
+  }
+}
+
+@keyframes crossBB {
+  0% {
+    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+  }
+  100% {
+    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
+            transform: rotateZ(0) translateY(0) translateX(0);
+  }
+}
+
+.trunks #midTrunk {
+  -webkit-animation: crossMB 1s ease forwards;
+          animation: crossMB 1s ease forwards;
+}
+
+@-webkit-keyframes crossMB {
+  0% {
+    -webkit-transform: translateY(2em);
+            transform: translateY(2em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes crossMB {
+  0% {
+    -webkit-transform: translateY(2em);
+            transform: translateY(2em);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.trunks #topTrunk {
+  -webkit-animation: crossTB 1s ease forwards;
+          animation: crossTB 1s ease forwards;
+}
+
+@-webkit-keyframes crossTB {
+  0% {
+    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+  }
+  100% {
+    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
+            transform: rotateZ(0) translateY(0) translateX(0);
+  }
+}
+
+@keyframes crossTB {
+  0% {
+    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+  }
+  100% {
+    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
+            transform: rotateZ(0) translateY(0) translateX(0);
+  }
+}
+
+rect {
+  fill: transparent;
+}
+
+.crossTrunks {
+  position: absolute;
+  z-index: 3;
+}
+
+.crossTrunks #bottomTrunk {
+  -webkit-animation: crossB 1s ease forwards;
+          animation: crossB 1s ease forwards;
+}
+
+@-webkit-keyframes crossB {
+  100% {
+    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+  }
+}
+
+@keyframes crossB {
+  100% {
+    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+  }
+}
+
+.crossTrunks #midTrunk {
+  -webkit-animation: crossM 1s ease forwards;
+          animation: crossM 1s ease forwards;
+}
+
+@-webkit-keyframes crossM {
+  100% {
+    -webkit-transform: translateY(2.5em);
+            transform: translateY(2.5em);
+  }
+}
+
+@keyframes crossM {
+  100% {
+    -webkit-transform: translateY(2.5em);
+            transform: translateY(2.5em);
+  }
+}
+
+.crossTrunks #topTrunk {
+  -webkit-animation: crossT 1s ease forwards;
+          animation: crossT 1s ease forwards;
+}
+
+@-webkit-keyframes crossT {
+  100% {
+    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+  }
+}
+
+@keyframes crossT {
+  100% {
+    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+  }
+}
+/*# sourceMappingURL=navBarIcons.css.map */

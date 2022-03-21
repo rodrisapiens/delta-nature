@@ -1,0 +1,24 @@
+*,
+::after,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans";
+}
+#root {
+    height: 100%;
+}
+body {
+    height: 200vh;
+    width: 100%;
+    background-color: #597E4E;
+}
+.app {
+    background-color: #597E4E;
+    width: 100%;
+    display: grid;
+    align-content: flex-start;
+}
+
+

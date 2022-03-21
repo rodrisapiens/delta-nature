@@ -1,0 +1,141 @@
+.meet {
+  font-weight: bold;
+  font-size: 72px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  z-index: 1;
+  -webkit-animation: meet 2s ease forwards;
+          animation: meet 2s ease forwards;
+}
+
+@-webkit-keyframes meet {
+  0% {
+    letter-spacing: 0.1em;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes meet {
+  0% {
+    letter-spacing: 0.1em;
+    opacity: 0;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes row {
+  100% {
+    -webkit-transform: rotateZ(10deg);
+            transform: rotateZ(10deg);
+  }
+}
+
+@keyframes row {
+  100% {
+    -webkit-transform: rotateZ(10deg);
+            transform: rotateZ(10deg);
+  }
+}
+
+#Group_2 {
+  -webkit-transform: translateY(63px);
+          transform: translateY(63px);
+}
+
+.CanoeAndGuyy {
+  top: 60vh;
+  left: 80vw;
+  width: 5em;
+  position: absolute;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  z-index: 1;
+}
+
+.CanoeAndGuyy #shadows {
+  -webkit-animation: shadows 1s ease-in-out infinite;
+          animation: shadows 1s ease-in-out infinite;
+}
+
+.CanoeAndGuyy #shadows > path {
+  fill: #b7b8ba;
+}
+
+@-webkit-keyframes shadows {
+  100% {
+    -webkit-transform: translateY(0.5em);
+            transform: translateY(0.5em);
+  }
+}
+
+@keyframes shadows {
+  100% {
+    -webkit-transform: translateY(0.5em);
+            transform: translateY(0.5em);
+  }
+}
+
+.CanoeAndGuyy #boat {
+  fill: #ce7f41;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: boat 2s ease-in-out infinite;
+          animation: boat 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes boat {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+}
+
+@keyframes boat {
+  0% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+  50% {
+    -webkit-transform: rotateZ(5deg);
+            transform: rotateZ(5deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(-5deg);
+            transform: rotateZ(-5deg);
+  }
+}
+
+.bg {
+  height: 120vh;
+  width: 120%;
+  top: -10vh;
+  left: -10%;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.bgConteiner {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=mainPage.css.map */
