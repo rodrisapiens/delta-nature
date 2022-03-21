@@ -23,8 +23,8 @@
 
 @-webkit-keyframes crossBB {
   0% {
-    -webkit-transform: rotateZ(32deg);
-            transform: rotateZ(32deg);
+    -webkit-transform: rotateZ(31deg) translateX(-1px);
+            transform: rotateZ(31deg) translateX(-1px);
   }
   100% {
     -webkit-transform: rotateZ(0);
@@ -34,8 +34,8 @@
 
 @keyframes crossBB {
   0% {
-    -webkit-transform: rotateZ(32deg);
-            transform: rotateZ(32deg);
+    -webkit-transform: rotateZ(31deg) translateX(-1px);
+            transform: rotateZ(31deg) translateX(-1px);
   }
   100% {
     -webkit-transform: rotateZ(0);
@@ -82,8 +82,8 @@
   0% {
     /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
  */
-    -webkit-transform: rotateZ(-36deg);
-            transform: rotateZ(-36deg);
+    -webkit-transform: rotateZ(-35deg) translateX(-1px);
+            transform: rotateZ(-35deg) translateX(-1px);
   }
   100% {
     -webkit-transform: rotateZ(0);
@@ -95,8 +95,8 @@
   0% {
     /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
  */
-    -webkit-transform: rotateZ(-36deg);
-            transform: rotateZ(-36deg);
+    -webkit-transform: rotateZ(-35deg) translateX(-1px);
+            transform: rotateZ(-35deg) translateX(-1px);
   }
   100% {
     -webkit-transform: rotateZ(0);
@@ -123,16 +123,16 @@ rect {
 
 @-webkit-keyframes crossB {
   100% {
-    -webkit-transform: rotateZ(32deg);
-            transform: rotateZ(32deg);
+    -webkit-transform: rotateZ(31deg) translateX(-1px);
+            transform: rotateZ(31deg) translateX(-1px);
     /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
   }
 }
 
 @keyframes crossB {
   100% {
-    -webkit-transform: rotateZ(32deg);
-            transform: rotateZ(32deg);
+    -webkit-transform: rotateZ(31deg) translateX(-1px);
+            transform: rotateZ(31deg) translateX(-1px);
     /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
   }
 }
@@ -167,16 +167,16 @@ rect {
 @-webkit-keyframes crossT {
   100% {
     /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
-    -webkit-transform: rotateZ(-36deg);
-            transform: rotateZ(-36deg);
+    -webkit-transform: rotateZ(-35deg) translateX(-1px);
+            transform: rotateZ(-35deg) translateX(-1px);
   }
 }
 
 @keyframes crossT {
   100% {
     /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
-    -webkit-transform: rotateZ(-36deg);
-            transform: rotateZ(-36deg);
+    -webkit-transform: rotateZ(-35deg) translateX(-1px);
+            transform: rotateZ(-35deg) translateX(-1px);
   }
 }
 /*# sourceMappingURL=navBarIcons.css.map */

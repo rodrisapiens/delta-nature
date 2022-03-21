@@ -16,7 +16,7 @@
         animation: crossBB 1s ease forwards;
         @keyframes crossBB {
             0%{
-                transform: rotateZ(32deg);
+                transform: rotateZ(31deg)translateX(-1px);
             }
             100% {
                 transform: rotateZ(0)
@@ -42,7 +42,7 @@
             0%{
 /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
  */
- transform: rotateZ(-36deg);            
+ transform: rotateZ(-35deg)translateX(-1px);            
 }
             
             100% {
@@ -63,7 +63,7 @@ rect {
     transform-origin: right;
         @keyframes crossB {
             100% {
-                transform: rotateZ(32deg);
+                transform: rotateZ(31deg)translateX(-1px);
                 /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
             }
         }
@@ -83,7 +83,7 @@ rect {
         @keyframes crossT {
             100% {
                 /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
-                transform: rotateZ(-36deg);
+                transform: rotateZ(-35deg)translateX(-1px);
             }
         }
     }
