@@ -11,14 +11,15 @@
 .trunks {
     position: absolute;
     #bottomTrunk {
+        transform-box: fill-box;
+    transform-origin: right;
         animation: crossBB 1s ease forwards;
         @keyframes crossBB {
             0%{
-                transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
-
+                transform: rotateZ(32deg);
             }
             100% {
-                transform: rotateZ(0) translateY(0) translateX(0);
+                transform: rotateZ(0)
             }
         }
     }
@@ -26,7 +27,7 @@
         animation: crossMB 1s ease forwards;
         @keyframes crossMB {
             0%{
-                transform: translateY(2em);
+                transform: translateY(3em);
             }
             100% {
                 transform: translateY(0);
@@ -34,14 +35,18 @@
         }
     }
     #topTrunk {
+        transform-box: fill-box;
+    transform-origin: right;
         animation: crossTB 1s ease forwards;
         @keyframes crossTB {
             0%{
-                transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
-            }
+/*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+ */
+ transform: rotateZ(-36deg);            
+}
             
             100% {
-                transform: rotateZ(0) translateY(0) translateX(0);
+                transform: rotateZ(0);
             }
         }
     }
@@ -54,9 +59,12 @@ rect {
     z-index: 3;
     #bottomTrunk {
         animation: crossB 1s ease forwards;
+        transform-box: fill-box;
+    transform-origin: right;
         @keyframes crossB {
             100% {
-                transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+                transform: rotateZ(32deg);
+                /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
             }
         }
     }
@@ -64,15 +72,18 @@ rect {
         animation: crossM 1s ease forwards;
         @keyframes crossM {
             100% {
-                transform: translateY(2.5em);
+                transform: translateY(3em);
             }
         }
     }
     #topTrunk {
+        transform-box: fill-box;
+    transform-origin: right;
         animation: crossT 1s ease forwards;
         @keyframes crossT {
             100% {
-                transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+                /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
+                transform: rotateZ(-36deg);
             }
         }
     }

@@ -14,29 +14,32 @@
 }
 
 .trunks #bottomTrunk {
+  transform-box: fill-box;
+  -webkit-transform-origin: right;
+          transform-origin: right;
   -webkit-animation: crossBB 1s ease forwards;
           animation: crossBB 1s ease forwards;
 }
 
 @-webkit-keyframes crossBB {
   0% {
-    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
-            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+    -webkit-transform: rotateZ(32deg);
+            transform: rotateZ(32deg);
   }
   100% {
-    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
-            transform: rotateZ(0) translateY(0) translateX(0);
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
   }
 }
 
 @keyframes crossBB {
   0% {
-    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
-            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+    -webkit-transform: rotateZ(32deg);
+            transform: rotateZ(32deg);
   }
   100% {
-    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
-            transform: rotateZ(0) translateY(0) translateX(0);
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
   }
 }
 
@@ -47,8 +50,8 @@
 
 @-webkit-keyframes crossMB {
   0% {
-    -webkit-transform: translateY(2em);
-            transform: translateY(2em);
+    -webkit-transform: translateY(3em);
+            transform: translateY(3em);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -58,8 +61,8 @@
 
 @keyframes crossMB {
   0% {
-    -webkit-transform: translateY(2em);
-            transform: translateY(2em);
+    -webkit-transform: translateY(3em);
+            transform: translateY(3em);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -68,29 +71,36 @@
 }
 
 .trunks #topTrunk {
+  transform-box: fill-box;
+  -webkit-transform-origin: right;
+          transform-origin: right;
   -webkit-animation: crossTB 1s ease forwards;
           animation: crossTB 1s ease forwards;
 }
 
 @-webkit-keyframes crossTB {
   0% {
-    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
-            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+    /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+ */
+    -webkit-transform: rotateZ(-36deg);
+            transform: rotateZ(-36deg);
   }
   100% {
-    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
-            transform: rotateZ(0) translateY(0) translateX(0);
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
   }
 }
 
 @keyframes crossTB {
   0% {
-    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
-            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+    /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+ */
+    -webkit-transform: rotateZ(-36deg);
+            transform: rotateZ(-36deg);
   }
   100% {
-    -webkit-transform: rotateZ(0) translateY(0) translateX(0);
-            transform: rotateZ(0) translateY(0) translateX(0);
+    -webkit-transform: rotateZ(0);
+            transform: rotateZ(0);
   }
 }
 
@@ -106,19 +116,24 @@ rect {
 .crossTrunks #bottomTrunk {
   -webkit-animation: crossB 1s ease forwards;
           animation: crossB 1s ease forwards;
+  transform-box: fill-box;
+  -webkit-transform-origin: right;
+          transform-origin: right;
 }
 
 @-webkit-keyframes crossB {
   100% {
-    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
-            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+    -webkit-transform: rotateZ(32deg);
+            transform: rotateZ(32deg);
+    /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
   }
 }
 
 @keyframes crossB {
   100% {
-    -webkit-transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
-            transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em);
+    -webkit-transform: rotateZ(32deg);
+            transform: rotateZ(32deg);
+    /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
   }
 }
 
@@ -129,34 +144,39 @@ rect {
 
 @-webkit-keyframes crossM {
   100% {
-    -webkit-transform: translateY(2.5em);
-            transform: translateY(2.5em);
+    -webkit-transform: translateY(3em);
+            transform: translateY(3em);
   }
 }
 
 @keyframes crossM {
   100% {
-    -webkit-transform: translateY(2.5em);
-            transform: translateY(2.5em);
+    -webkit-transform: translateY(3em);
+            transform: translateY(3em);
   }
 }
 
 .crossTrunks #topTrunk {
+  transform-box: fill-box;
+  -webkit-transform-origin: right;
+          transform-origin: right;
   -webkit-animation: crossT 1s ease forwards;
           animation: crossT 1s ease forwards;
 }
 
 @-webkit-keyframes crossT {
   100% {
-    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
-            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+    /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
+    -webkit-transform: rotateZ(-36deg);
+            transform: rotateZ(-36deg);
   }
 }
 
 @keyframes crossT {
   100% {
-    -webkit-transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
-            transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+    /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
+    -webkit-transform: rotateZ(-36deg);
+            transform: rotateZ(-36deg);
   }
 }
 /*# sourceMappingURL=navBarIcons.css.map */
