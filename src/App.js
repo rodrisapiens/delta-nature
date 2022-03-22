@@ -6,6 +6,7 @@ import AboutUs from './components/pages/AboutUs';
 import Education from './components/pages/Education';
 import StartYourJourney from './components/pages/StartYourJourney';
 import { ReactComponent as CanoeAndGuy } from "./images/canoeAndGuy.svg";
+import { ReactComponent as Logo } from "./images/logo.svg";
 import logo from "./images/logo(1).png";
 import NavBarIcons from "./components/NavBarIcons"
 import MobileNavBar from "./components/MobileNavBar"
@@ -24,7 +25,7 @@ function App() {
     <BrowserRouter>
       <div className='app'>
         <div className="logoAndName">
-          <img src={logo} alt="logo" className="logo" />
+          <Logo className="logo"/>
           <h1 className="name">Delta&Nature</h1>
         </div>
         {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : <NavBar/>}
