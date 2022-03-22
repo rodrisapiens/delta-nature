@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import IntroduceTours from './MainSections/IntroduceTours';
 import "../../styles/mainPage.css"
 function MainPage({bg,CanoeAndGuy,english}) {
     const positions = useRef([0,0])//[0]is actual position,[1],prev.
@@ -56,13 +57,13 @@ function MainPage({bg,CanoeAndGuy,english}) {
       console.log(position)
     }
     return (
-      <div className="app">
+      
         <div className="bgConteiner">
           <h1 className="meet">{english?"Meet with nature":"Conoce la naturaleza"}</h1>
+          <h4 className='subTitle'>Conocer para amar y amar<br></br>para preservar</h4>
           <CanoeAndGuy className='CanoeAndGuyy' />
           <img src={bg} alt={"bg"} className='bg'></img>
         </div>
-      </div>
     );
   }
 

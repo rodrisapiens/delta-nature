@@ -12,21 +12,25 @@ import bg from "./images/forestAndWater.png"
 /* import Header from './Header';
  */import './styles/app.css';
 function App() {
-  const [english,setEnglish]=useState(false);
-  const [navOn,setNavOn]=useState(false)
+  const [english, setEnglish] = useState(false);
+  const [navOn, setNavOn] = useState(false)
+  const[first,setFirst]=useState(true);
+  useEffect(()=>{
+    console.log(first,"first")
+  },[])
   return (
     <BrowserRouter>
-    <div className='app'>
-    {window.innerWidth<600?<NavBarIcons setNavOn={setNavOn}navOn={navOn}/>:null}
-    {navOn?<MobileNavBar setNavOn={setNavOn}navOn={navOn}/>:null}
-      <Routes>
-        <Route path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english}/>} />
-        <Route path="/Tours" element={<Tours />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/Education" element={<Education />} />
-        <Route path="/StartYourJourney" element={<StartYourJourney />} />
-      </Routes>
-    </div>
+      <div className='app'>
+        {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : null}
+        {first?null:<MobileNavBar setNavOn={setNavOn}navOn={navOn}/>}
+        <Routes>
+          <Route path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english} />} />
+          <Route path="/Tours" element={<Tours />} />
+          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/Education" element={<Education />} />
+          <Route path="/StartYourJourney" element={<StartYourJourney />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
