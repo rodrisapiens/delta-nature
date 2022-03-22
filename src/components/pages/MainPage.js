@@ -59,8 +59,8 @@ function MainPage({bg,CanoeAndGuy,english}) {
     return (
       
         <div className="bgConteiner">
-          <h1 className="meet">{english?"Meet with nature":"Conoce la naturaleza"}</h1>
-          <h4 className='subTitle'>Conocer para amar y amar<br></br>para preservar</h4>
+          <h1 className="meet">{english?"Meet with nature":"Descubrí la naturaleza"}</h1>
+          <h4 className='subTitle'>Conocer para amar y amar para preservar</h4>
           <CanoeAndGuy className='CanoeAndGuyy' />
           <img src={bg} alt={"bg"} className='bg'></img>
         </div>

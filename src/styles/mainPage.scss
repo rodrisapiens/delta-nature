@@ -86,6 +86,7 @@
     left: 5%;
     color: white;
     z-index: 1;
+    width: 16em;
 }
 
 @media all and (max-width: 600px) {
@@ -101,9 +102,10 @@ width: 200%;
     }
     .subTitle
 {
+    width: 10em;
     font-size: 32px;
     position: absolute;
-    font-weight: 100;
+    font-weight: 200;
     top: 50%;
     left: 5%;
     color: white;
