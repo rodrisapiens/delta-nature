@@ -1,7 +1,7 @@
 .NavIcon {
     position: fixed;
-    top: 1%;
-    left: 85%;
+    top: 4%;
+    left: 80%;
     height: -moz-fit-content;
     background-color: transparent;
     border-style: none;
@@ -12,21 +12,21 @@
     position: absolute;
     #bottomTrunk {
         transform-box: fill-box;
-    transform-origin: right;
+        transform-origin: right;
         animation: crossBB 1s ease forwards;
         @keyframes crossBB {
-            0%{
-                transform: rotateZ(31deg)translateX(-1px);
+            0% {
+                transform: rotateZ(31deg) translateX(-1px);
             }
             100% {
-                transform: rotateZ(0)
+                transform: rotateZ(0);
             }
         }
     }
     #midTrunk {
         animation: crossMB 1s ease forwards;
         @keyframes crossMB {
-            0%{
+            0% {
                 transform: translateY(3em);
             }
             100% {
@@ -36,15 +36,15 @@
     }
     #topTrunk {
         transform-box: fill-box;
-    transform-origin: right;
+        transform-origin: right;
         animation: crossTB 1s ease forwards;
         @keyframes crossTB {
-            0%{
-/*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
+            0% {
+                /*                 transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em);
  */
- transform: rotateZ(-35deg)translateX(-1px);            
-}
-            
+                transform: rotateZ(-35deg) translateX(-1px);
+            }
+
             100% {
                 transform: rotateZ(0);
             }
@@ -60,10 +60,10 @@ rect {
     #bottomTrunk {
         animation: crossB 1s ease forwards;
         transform-box: fill-box;
-    transform-origin: right;
+        transform-origin: right;
         @keyframes crossB {
             100% {
-                transform: rotateZ(31deg)translateX(-1px);
+                transform: rotateZ(31deg) translateX(-1px);
                 /* transform: rotateZ(45deg) translateY(-2.6em) translateX(0.4em); */
             }
         }
@@ -78,12 +78,12 @@ rect {
     }
     #topTrunk {
         transform-box: fill-box;
-    transform-origin: right;
+        transform-origin: right;
         animation: crossT 1s ease forwards;
         @keyframes crossT {
             100% {
                 /* transform: rotateZ(-45deg) translateY(1.8em) translateX(-1.9em); */
-                transform: rotateZ(-35deg)translateX(-1px);
+                transform: rotateZ(-35deg) translateX(-1px);
             }
         }
     }

@@ -19,15 +19,45 @@ html {
 body {
   height: 200vh;
   width: 100%;
-  background-color: #597E4E;
+  background-color: #597e4e;
 }
 
 .app {
-  background-color: #597E4E;
+  background-color: #597e4e;
   width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-flex-line-pack: start;
       align-content: flex-start;
+}
+
+.logoAndName {
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.name {
+  font-size: 1.5em;
+  color: white;
+  font-weight: 800;
+}
+
+.logo {
+  width: 2em;
 }
 /*# sourceMappingURL=app.css.map */

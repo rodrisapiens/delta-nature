@@ -6,11 +6,13 @@ import AboutUs from './components/pages/AboutUs';
 import Education from './components/pages/Education';
 import StartYourJourney from './components/pages/StartYourJourney';
 import { ReactComponent as CanoeAndGuy } from "./images/canoeAndGuy.svg";
+import logo from "./images/logo(1).png";
 import NavBarIcons from "./components/NavBarIcons"
 import MobileNavBar from "./components/MobileNavBar"
 import bg from "./images/forestAndWater.png"
 /* import Header from './Header';
  */import './styles/app.css';
+import NavBar from './components/NavBar';
 function App() {
   const [english, setEnglish] = useState(false);
   const [navOn, setNavOn] = useState(false)
@@ -21,7 +23,11 @@ function App() {
   return (
     <BrowserRouter>
       <div className='app'>
-        {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : null}
+        <div className="logoAndName">
+          <img src={logo} alt="logo" className="logo" />
+          <h1 className="name">Delta&Nature</h1>
+        </div>
+        {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : <NavBar/>}
         {first?null:<MobileNavBar setNavOn={setNavOn}navOn={navOn}/>}
         <Routes>
           <Route path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english} />} />
