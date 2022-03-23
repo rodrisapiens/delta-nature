@@ -1,8 +1,47 @@
-.EducationMainPage
-{
+.EducationMainPage {
     height: 100vh;
     width: 100%;
     display: grid;
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 1rem;
+    border-bottom: solid;
+}
+.IconsAndNames {
+    display: grid;
+    align-content: center;
+    gap: 1rem;
+}
+.titleEducationMain {
+    justify-self: center;
+    align-self: center;
+}
+.birdSection {
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+}
+.ecoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.humeSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.mariSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.Icon {
+    width: 6rem;
+    height: 6rem;
 }

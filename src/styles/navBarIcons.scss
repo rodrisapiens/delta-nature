@@ -7,6 +7,9 @@
     border-style: none;
     outline: none;
     z-index: 3;
+    rect {
+        fill: transparent;
+    }
 }
 .trunks {
     position: absolute;
@@ -50,9 +53,6 @@
             }
         }
     }
-}
-rect {
-    fill: transparent;
 }
 .crossTrunks {
     position: absolute;

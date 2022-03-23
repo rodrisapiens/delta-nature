@@ -4,6 +4,7 @@ import PresentationCard from "../../PresentationCard.js"
 import rigthBird from "../../../images/rigthBird.png";
 import leftBird from "../../../images/leftBird.png";
 import centerBirds from "../../../images/centerBirds.png";
+import {Link} from "react-router-dom"
 function ToursMainPage() {
   return (
     <div className='ToursMainPage'>
@@ -26,7 +27,7 @@ function ToursMainPage() {
         <PresentationCard card={0} />
         <PresentationCard card={1} />
       </div>
-      <button className="more">See More!</button>
+      <Link to={"/Tours"} className="more">See More!</Link>
     </div>
   )
 }
