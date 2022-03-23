@@ -1,8 +1,33 @@
 import React from 'react'
-
+import "../../../styles/ToursMain.css"
+import PresentationCard from "../../PresentationCard.js"
+import rigthBird from "../../../images/rigthBird.png";
+import leftBird from "../../../images/leftBird.png";
+import centerBirds from "../../../images/centerBirds.png";
 function ToursMainPage() {
   return (
-    <div>ToursMainPage</div>
+    <div className='ToursMainPage'>
+      <div className="whereToAdventure">
+        <h1 className="whereTo">Where to</h1>
+        <h1 className="Adventure?">Adventure?</h1>
+      </div>
+      <div className="birds">
+        <div className="rigthBirdConteiner">
+          <img src={rigthBird} alt="" className="rigthBird" />
+        </div>
+        <div className="centerBirdsConteiner">
+          <img src={centerBirds} alt="" className="centerBirds" />
+        </div>
+        <div className="leftBirdConteiner">
+          <img src={leftBird} alt="" className="leftBird" />
+        </div>
+      </div>
+      <div className="cards">
+        <PresentationCard card={0} />
+        <PresentationCard card={1} />
+      </div>
+      <button className="more">See More!</button>
+    </div>
   )
 }
 

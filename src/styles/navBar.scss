@@ -25,6 +25,10 @@
     align-content: center;
     gap: .3rem;
 }
+.navBtnD:hover
+{
+    font-weight: 800;
+}
 .navBtnS {
     color: white;
     font-family: inherit;
@@ -36,6 +40,7 @@
     display: flex;
     align-content: center;
     gap: .5rem;
+    justify-content: center;
 }
 .arrowHeadD {
     fill: white;

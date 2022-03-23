@@ -5,7 +5,7 @@ import {ReactComponent as Arrow} from "./../images/arrowHead.svg"
 import {ReactComponent as LongArrow} from "./../images/longArrow.svg"
 
 function NavBar() {
-    const [page, setPage] = useState("/")
+    const [page, setPage] = useState("Home")
     useEffect(() => {
      const navBtn=document.querySelectorAll(".navBtnD");
      if(navBtn.textContent===page){

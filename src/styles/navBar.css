@@ -39,6 +39,10 @@
   gap: .3rem;
 }
 
+.navBtnD:hover {
+  font-weight: 800;
+}
+
 .navBtnS {
   color: white;
   font-family: inherit;
@@ -53,6 +57,9 @@
   -ms-flex-line-pack: center;
       align-content: center;
   gap: .5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .arrowHeadD {

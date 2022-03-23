@@ -1,8 +1,11 @@
 import React from 'react'
+import "../../../styles/AboutMainPage.css"
 
 function AboutMainPage() {
   return (
-    <div>AboutMainPage</div>
+    <div className="AboutMainPage">
+      AboutMainPage
+    </div>
   )
 }
 

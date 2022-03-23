@@ -1,0 +1,117 @@
+.ToursMainPage {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    border-bottom: solid;
+    padding: 5%;
+}
+.whereToAdventure {
+    color: white;
+    font-size: 1em;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    justify-content: space-between;
+    top: -30%;
+}
+.birds {
+    position: relative;
+    width: 100%;
+    display: grid;
+    z-index: 0;
+    top: -7%;
+}
+.rigthBird {
+    width: 10em;
+    height: 10em;
+}
+.leftBird {
+    width: 10em;
+    height: 10em;
+}
+.centerBirds {
+    width: 20rem;
+    height: 20rem;
+    position: relative;
+    top: -50%;
+    left: -55%;
+}
+
+.leftBirdConteiner {
+    overflow: hidden;
+    width: 8em;
+    height: 8em;
+    top: 40%;
+    position: relative;
+    left: 1%;
+}
+.rigthBirdConteiner {
+    overflow: hidden;
+    width: 8em;
+    height: 8em;
+    position: relative;
+    left: 63%;
+    top: 1%;
+}
+.centerBirdsConteiner {
+    overflow: hidden;
+    position: relative;
+    left: 26%;
+    top: 29%;
+    width: 12rem;
+    height: 12rem;
+}
+.cardConteiner {
+    position: relative;
+    z-index: 1;
+}
+.PresentationCard {
+    background-color: #3c5141;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.left {
+    left: -40%;
+}
+.rigth {
+    left: 40%;
+}
+
+.cards {
+    display: grid;
+    justify-items: center;
+    color: white;
+    gap: 1rem;
+    position: absolute;
+    transform: translateX(-50%) translateY(0);
+    left: 50%;
+}
+.cardPhoto {
+    width: 12rem;
+}
+.cardTextConteiner {
+    padding: 1rem;
+}
+.cardText {
+    width: 10rem;
+    margin-top: 1rem;
+}
+.more {
+    color: white;
+    background: transparent;
+    border: solid;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-width: thin;
+    padding: 1rem;
+    width: 8rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30%;
+}
