@@ -23,10 +23,9 @@
     font-weight: 300;
     display: flex;
     align-content: center;
-    gap: .3rem;
+    gap: 0.3rem;
 }
-.navBtnD:hover
-{
+.navBtnD:hover {
     font-weight: 800;
 }
 .navBtnS {
@@ -39,20 +38,26 @@
     font-weight: 800;
     display: flex;
     align-content: center;
-    gap: .5rem;
+    gap: 0.5rem;
     justify-content: center;
+    border-bottom: solid;
+    border-bottom-color: transparent;
+}
+.navBtnS:hover {
+    border-bottom-color: aqua;
+    text-decoration-style: dashed;
+    transition: all 1s ease;
 }
 .arrowHeadD {
     fill: white;
     transform: rotate(0);
     width: 1rem;
 }
-.longArrow{
+.longArrow {
     width: 1rem;
     fill: white;
     transform: rotate(-90deg);
 }
-.On
-{
+.On {
     font-weight: 800;
 }

@@ -69,7 +69,8 @@
     z-index: 1;
 }
 .PresentationCard {
-    background-color: #3c5141;
+/*     background-color: #3c5141;
+ */    background-color:#666B67;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
@@ -114,4 +115,101 @@
     width: fit-content;
     border-radius: 5px;
     height: fit-content;
+}.moreE {
+    color: white;
+    background: transparent;
+    border: solid;
+    border-width: thin;
+    padding: 1rem;
+    width: 8rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30%;
+    width: fit-content;
+    border-radius: 5px;
+    height: fit-content;
+}
+@media all and (min-width: 600px) {
+    .ToursMainPage
+    {
+        justify-items: center;
+    }
+    .whereToAdventure {
+        font-size: 2rem;
+        justify-content: space-between;
+    }
+.birds
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.rigthBirdConteiner
+{
+    left: 0%;
+top: 10rem;
+width: 16em;
+height: 16em;
+}
+.rigthBird
+{
+    width: 18em;
+height: 18em;
+}
+.centerBirdsConteiner
+{
+    left: 11%;
+top: -25%;
+width: 20rem;
+height: 20rem;
+}
+.centerBirds
+{
+    top: 0px;
+left: 0;
+width: 25rem;
+height: 25rem;
+}
+.leftBirdConteiner
+{
+    left: 37%;
+top: 10rem;
+width: 16em;
+height: 16em;
+}
+.leftBird
+{
+    width: 20em;
+height: 20em;
+left: -20%;
+}
+.cards
+{
+    position: absolute;
+grid-template-columns: 1fr 1fr;
+gap: 5rem;
+transform: translateX(-50%) translateY(0);
+left: 50%;
+}
+.left
+{
+    left: 0%;
+}
+.rigth{
+    left:0% 
+}
+.cardPhoto
+{
+    width: 18rem;
+height: 12rem;
+}
+.cardText
+{
+    font-size: 1rem;
+width: 14rem;
+}
+.moreE
+{
+    left: 0;
+transform: translateX(0%);
+}
 }
