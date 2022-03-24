@@ -1,8 +1,42 @@
-.AboutMainPage
-{
+.AboutMainPage {
     height: 100vh;
     width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
+    color: white;
+    padding: 5%;
+}
+.aboutMainTitle {
+    justify-self: center;
+}
+.midSection {
+    display: flex;
+    gap: 1rem;
+}
+.textAndLink {
+    display: grid;
+}
+.textAboutMain {
+    font-weight: 200;
+    width: 12rem;
+}
+.guideContainer {
+    width: 10rem;
+    height: 18rem;
+    overflow: hidden;
+    align-self: center;
+}
+.guide {
+    height: 20rem;
+    width: 14rem;
+}
+.footer {
+    display: flex;
+    align-items: center;
+}
+.instagram {
+    position: relative;
+    left: 25%;
+    height: 3rem;
 }

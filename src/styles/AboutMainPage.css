@@ -9,5 +9,58 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: white;
+  padding: 5%;
+}
+
+.aboutMainTitle {
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.midSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.textAndLink {
+  display: -ms-grid;
+  display: grid;
+}
+
+.textAboutMain {
+  font-weight: 200;
+  width: 12rem;
+}
+
+.guideContainer {
+  width: 10rem;
+  height: 18rem;
+  overflow: hidden;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.guide {
+  height: 20rem;
+  width: 14rem;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instagram {
+  position: relative;
+  left: 25%;
+  height: 3rem;
 }
 /*# sourceMappingURL=AboutMainPage.css.map */
