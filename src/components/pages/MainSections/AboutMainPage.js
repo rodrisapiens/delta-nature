@@ -2,27 +2,40 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../../../styles/AboutMainPage.css"
 import guide from "../../../images/guia.jpg"
-import {ReactComponent as Instagram} from "../../../images/instagram.svg"
-const instaPage="https://www.instagram.com/deltaytigre/";
+import { ReactComponent as Instagram } from "../../../images/instagram.svg"
+const instaPage = "https://www.instagram.com/deltaytigre/";
 function AboutMainPage() {
   return (
     <div className="AboutMainPage">
-      <h1 className="aboutMainTitle">Sobre tu guia</h1>
+      <h1 className="aboutMainTitle">Sobre mi</h1>
       <div className="midSection">
         <div className="textAndLink">
           <p className="textAboutMain">
-            Im Maria Isable Reguero and im the guide for your adventure!I gradueted at  business administration in UBA. worked for many years in the CABA goverment in administration and nature sections. I studied and gradueted from the Tigre tourist guides school and then a became
-            a park ranger after having studied 4 years at perito moreno. in all my years of practice, proyects related to nature, formal suties and courses y have learns a lot and have many things to share!
+            Hola! Soy Maria Isabel Reguero.
+            estudié administración en UBA,
+            Soy Guia de turismo De tigre y
+            guardaparques nacional.
           </p>
-          <Link to={"/AboutUs"} className="more">Mas de mi</Link>
+          <p className="textAboutMain">
+            Soy miembro del centro de
+            observacion de aves (COA) y participé
+            de varias iniciativas ambientales.
+            por ejemplo:
+          </p>
+          <ul className='AboutList'> 
+            <li className="textAboutMain">Reserva natural ricon de Milberg,tigre</li>
+            <li className="textAboutMain" >Biocorredor Paul Groussac,El Talar</li>
+            <li className="textAboutMain">Voluntariado en Comandante Andresito,Misiones</li>
+          </ul>
+          <Link to={"/AboutUs"} className="more">Más de mi</Link>
         </div>
         <div className="guideContainer">
-        <img src={guide} alt="" className="guide" />
+          <img src={guide} alt="" className="guide" />
         </div>
       </div>
       <div className="footer">
-      <Instagram className='instagram' onClick={()=>{window.open(instaPage)}}/>
-      <Link to={"/AboutUs"} className="more">Hablemos!</Link>
+        <Instagram className='instagram' onClick={() => { window.open(instaPage) }} />
+        <Link to={"/AboutUs"} className="more">Hablemos!</Link>
       </div>
     </div>
   )

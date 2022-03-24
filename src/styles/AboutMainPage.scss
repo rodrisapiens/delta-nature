@@ -26,6 +26,8 @@
     height: 18rem;
     overflow: hidden;
     align-self: center;
+    position: relative;
+    top: 18%;
 }
 .guide {
     height: 20rem;
@@ -39,4 +41,7 @@
     position: relative;
     left: 25%;
     height: 3rem;
+}
+.AboutList {
+    list-style: inside;
 }

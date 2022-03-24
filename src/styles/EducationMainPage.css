@@ -81,4 +81,14 @@
   width: 6rem;
   height: 6rem;
 }
+
+.Icon:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.guide {
+  position: relative;
+  left: -35%;
+}
 /*# sourceMappingURL=EducationMainPage.css.map */
