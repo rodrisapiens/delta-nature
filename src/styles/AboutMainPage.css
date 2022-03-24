@@ -43,7 +43,9 @@
       -ms-grid-row-align: center;
       align-self: center;
   position: relative;
-  top: 18%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
 }
 
 .guide {
