@@ -36,6 +36,9 @@
 .footer {
     display: flex;
     align-items: center;
+    background-color: rgba($color: black, $alpha: .2);
+    padding: 1rem;
+    border-radius: 5px;
 }
 .instagram {
     position: relative;

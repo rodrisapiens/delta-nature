@@ -58,16 +58,16 @@ a {
     height: 50vh;
     display: grid;
     justify-content: center;
-align-items: center;
-animation: apear 1s forwards;
+    align-content: end;
+    animation: apear 1s forwards;
 }
 .MobileNavBarOff
 {
     height: 50vh;
     display: grid;
     justify-content: center;
-align-items: center;
-animation: desapear 1s forwards;
+    align-content: end;
+    animation: desapear 1s forwards;
 }
 .arrowHead
 {

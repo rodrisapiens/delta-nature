@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './components/pages/MainPage';
+import Contact from './components/pages/Contact';
 import Tours from './components/pages/Tours';
 import AboutUs from './components/pages/AboutUs';
 import Education from './components/pages/Education';
@@ -33,6 +34,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Education" element={<Education />} />
           <Route path="/StartYourJourney" element={<StartYourJourney />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
       </div>
     </BrowserRouter>

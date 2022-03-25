@@ -16,7 +16,6 @@
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  z-index: 2;
   width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;

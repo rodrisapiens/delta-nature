@@ -18,7 +18,7 @@ function NavBar() {
         <ul className="navBarD">
           <Link to={"/"} className={page==="Home"?'navBtnD On':'navBtnD'} onClick={() => {setPage("Home");}}>Home</Link>
           <Link to={"/Tours"} className={page==="Tours"?'navBtnD On':'navBtnD'} onClick={() => setPage("Tours")}>Tours</Link>
-          <Link to={"/AboutUs"} className={page==="AboutUS"?'navBtnD On':'navBtnD'} onClick={() => setPage("AboutUS")}>About Me <Arrow className='arrowHeadD'/></Link>
+          <Link to={"/AboutUs"} className={page==="AboutUS"?'navBtnD On':'navBtnD'} onClick={() => setPage("AboutUS")}>About Me</Link>
           <Link to={"/Education"} className={page==="Education"?'navBtnD On':'navBtnD'} onClick={() => setPage("Education")}>Education</Link>
           <Link to={"/StartYourJourney"} className={'navBtnS'} onClick={() => setPage("StartYourJourney")}><LongArrow className='longArrow'/>Start Journey</Link>
         </ul>

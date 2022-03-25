@@ -35,7 +35,7 @@ function AboutMainPage() {
       </div>
       <div className="footer">
         <Instagram className='instagram' onClick={() => { window.open(instaPage) }} />
-        <Link to={"/AboutUs"} className="more">Hablemos!</Link>
+        <Link to={"/Contact"} className="more">Hablemos!</Link>
       </div>
     </div>
   )
