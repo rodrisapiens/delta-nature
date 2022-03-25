@@ -30,6 +30,7 @@ body {
   display: grid;
   -ms-flex-line-pack: start;
       align-content: flex-start;
+  min-height: 100vh;
 }
 
 .logoAndName {

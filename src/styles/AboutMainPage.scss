@@ -45,3 +45,21 @@
 .AboutList {
     list-style: inside;
 }
+@media all and (min-width: 600px) {
+    .midSection {
+        width: 100%;
+    }
+    .textAboutMain {
+        font-weight: 200;
+        width: 30rem;
+    }
+    .guideContainer {
+        width: 20rem;
+    }
+    .guide {
+        height: 33rem;
+        width: 24rem;
+        top: -35%;
+        left: -21%;
+    }
+}

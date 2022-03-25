@@ -18,9 +18,6 @@ function App() {
   const [english, setEnglish] = useState(false);
   const [navOn, setNavOn] = useState(false)
   const[first,setFirst]=useState(true);
-  useEffect(()=>{
-    console.log(first,"first")
-  },[])
   return (
     <BrowserRouter>
       <div className='app'>

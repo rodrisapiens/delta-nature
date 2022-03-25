@@ -23,21 +23,20 @@
     top: -7%;
 }
 .rigthBird {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
 }
 .leftBird {
-    width: 10em;
-    height: 10em;
+    width: 13em;
+    height: 13em;
     position: relative;
-    left: -23%;
+    left: -62%;
 }
 .centerBirds {
     width: 20rem;
     height: 20rem;
     position: relative;
-    top: -50%;
-    left: -55%;
+    left: -66%;
 }
 
 .leftBirdConteiner {
@@ -69,8 +68,9 @@
     z-index: 1;
 }
 .PresentationCard {
-/*     background-color: #3c5141;
- */    background-color:#666B67;
+    /*     background-color: #3c5141;
+ */
+    background-color: #666b67;
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
@@ -115,7 +115,8 @@
     width: fit-content;
     border-radius: 5px;
     height: fit-content;
-}.moreE {
+}
+.moreE {
     color: white;
     background: transparent;
     border: solid;
@@ -131,85 +132,73 @@
     height: fit-content;
 }
 @media all and (min-width: 600px) {
-    .ToursMainPage
-    {
+    .ToursMainPage {
         justify-items: center;
     }
     .whereToAdventure {
         font-size: 2rem;
         justify-content: space-between;
     }
-.birds
-{
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.rigthBirdConteiner
-{
-    left: 0%;
-top: 10rem;
-width: 16em;
-height: 16em;
-}
-.rigthBird
-{
-    width: 18em;
-height: 18em;
-}
-.centerBirdsConteiner
-{
-    left: 11%;
-top: -25%;
-width: 20rem;
-height: 20rem;
-}
-.centerBirds
-{
-    top: 0px;
-left: 0;
-width: 25rem;
-height: 25rem;
-}
-.leftBirdConteiner
-{
-    left: 37%;
-top: 10rem;
-width: 16em;
-height: 16em;
-}
-.leftBird
-{
-    width: 20em;
-height: 20em;
-left: -20%;
-}
-.cards
-{
-    position: absolute;
-grid-template-columns: 1fr 1fr;
-gap: 5rem;
-transform: translateX(-50%) translateY(0);
-left: 50%;
-}
-.left
-{
-    left: 0%;
-}
-.rigth{
-    left:0% 
-}
-.cardPhoto
-{
-    width: 18rem;
-height: 12rem;
-}
-.cardText
-{
-    font-size: 1rem;
-width: 14rem;
-}
-.moreE
-{
-    left: 0;
-transform: translateX(0%);
-}
+    .birds {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .rigthBirdConteiner {
+        left: 15%;
+        top: -2rem;
+        width: 16em;
+        height: 16em;
+    }
+    .rigthBird {
+        width: 25em;
+        height: 25em;
+    }
+    .centerBirdsConteiner {
+        left: 11%;
+        top: -25%;
+        width: 20rem;
+        height: 20rem;
+    }
+    .centerBirds {
+        top: 0px;
+        left: 0;
+        left: -30%;
+        width: 26rem;
+        height: 26rem;
+    }
+    .leftBirdConteiner {
+        left: 15%;
+        top: -2rem;
+        width: 16em;
+        height: 16em;
+    }
+    .leftBird {
+        width: 20em;
+        height: 20em;
+        left: -25%;
+    }
+    .cards {
+        position: absolute;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        transform: translateX(-50%) translateY(0);
+        left: 50%;
+    }
+    .left {
+        left: 0%;
+    }
+    .rigth {
+        left: 0%;
+    }
+    .cardPhoto {
+        width: 18rem;
+        height: 12rem;
+    }
+    .cardText {
+        font-size: 1rem;
+        width: 14rem;
+    }
+    .moreE {
+        left: 0;
+        transform: translateX(0%);
+    }
 }

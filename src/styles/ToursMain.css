@@ -34,23 +34,22 @@
 }
 
 .rigthBird {
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
 }
 
 .leftBird {
-  width: 10em;
-  height: 10em;
+  width: 13em;
+  height: 13em;
   position: relative;
-  left: -23%;
+  left: -62%;
 }
 
 .centerBirds {
   width: 20rem;
   height: 20rem;
   position: relative;
-  top: -50%;
-  left: -55%;
+  left: -66%;
 }
 
 .leftBirdConteiner {
@@ -88,7 +87,7 @@
 .PresentationCard {
   /*     background-color: #3c5141;
  */
-  background-color: #666B67;
+  background-color: #666b67;
   border-radius: 5px;
   overflow: hidden;
   -webkit-box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
@@ -185,14 +184,14 @@
         grid-template-columns: 1fr 1fr 1fr;
   }
   .rigthBirdConteiner {
-    left: 0%;
-    top: 10rem;
+    left: 15%;
+    top: -2rem;
     width: 16em;
     height: 16em;
   }
   .rigthBird {
-    width: 18em;
-    height: 18em;
+    width: 25em;
+    height: 25em;
   }
   .centerBirdsConteiner {
     left: 11%;
@@ -203,19 +202,20 @@
   .centerBirds {
     top: 0px;
     left: 0;
-    width: 25rem;
-    height: 25rem;
+    left: -30%;
+    width: 26rem;
+    height: 26rem;
   }
   .leftBirdConteiner {
-    left: 37%;
-    top: 10rem;
+    left: 15%;
+    top: -2rem;
     width: 16em;
     height: 16em;
   }
   .leftBird {
     width: 20em;
     height: 20em;
-    left: -20%;
+    left: -25%;
   }
   .cards {
     position: absolute;

@@ -12,18 +12,18 @@ function EducationMainPage() {
       <div className="IconsAndNames">
         <div className="birdSection">
           <img src={bird} alt="" className="bird Icon" />
-          <h1>Aves</h1>
+          <h1 className='iconTitle'>Aves</h1>
         </div>
         <div className="humeSection">
-          <h1>Humedales</h1>
+          <h1 className='iconTitle'>Humedales</h1>
           <img src={humedal} alt="" className="humedal Icon" />
         </div>
         <div className="ecoSection">
           <img src={ecologia} alt="" className="ecologia Icon" />
-          <h1>Reciclaje</h1>
+          <h1 className='iconTitle' >Reciclaje</h1>
         </div>
         <div className="mariSection">
-          <h1>Mariposas</h1>
+          <h1 className='iconTitle'>Mariposas</h1>
           <img src={mariposa} alt="" className="mariposa Icon" />
         </div>
       </div>

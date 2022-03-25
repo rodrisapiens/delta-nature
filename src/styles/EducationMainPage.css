@@ -15,6 +15,7 @@
   -ms-flex-line-pack: center;
       align-content: center;
   gap: 1rem;
+  overflow: hidden;
 }
 
 .titleEducationMain {
@@ -36,6 +37,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  -webkit-transform: translateX(70vw);
+          transform: translateX(70vw);
 }
 
 .ecoSection {
@@ -49,6 +52,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  -webkit-transform: translateX(70vw);
+          transform: translateX(70vw);
 }
 
 .humeSection {
@@ -62,6 +67,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  -webkit-transform: translateX(-70vw);
+          transform: translateX(-70vw);
 }
 
 .mariSection {
@@ -75,6 +82,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  -webkit-transform: translateX(-70vw);
+          transform: translateX(-70vw);
 }
 
 .Icon {
@@ -90,5 +99,23 @@
 .guide {
   position: relative;
   left: -35%;
+}
+
+.iconTitle {
+  font-weight: 400;
+}
+
+@-webkit-keyframes apearEducation {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes apearEducation {
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=EducationMainPage.css.map */
