@@ -37,8 +37,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  -webkit-transform: translateX(70vw);
-          transform: translateX(70vw);
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
 }
 
 .ecoSection {
@@ -52,8 +52,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  -webkit-transform: translateX(70vw);
-          transform: translateX(70vw);
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
 }
 
 .humeSection {
@@ -67,8 +67,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  -webkit-transform: translateX(-70vw);
-          transform: translateX(-70vw);
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
 }
 
 .mariSection {
@@ -82,8 +82,8 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
-  -webkit-transform: translateX(-70vw);
-          transform: translateX(-70vw);
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
 }
 
 .Icon {

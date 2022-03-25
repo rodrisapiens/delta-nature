@@ -31,12 +31,12 @@ function MainPage({ bg, CanoeAndGuy, english }) {
     const canoeAndGuyy = document.querySelector(".CanoeAndGuyy");
     const convertion = (100 / (mainPage.clientHeight));//as a linear function, let's calculate the convertion factor
     const converion1= 100/80;//80 es el maximo que llega position
-    const position = Math.floor(((window.scrollY) * convertion)*converion1)//valor de 0 a 100
+    const position = ((window.scrollY) * convertion)*converion1//valor de 0 a 100
     positions.current[0] = position;
     if (positions.current[0] - positions.current[1] > 0)//si estoy bajando
     {
       direction.current = "down";
-      canoeAndGuyy.style.transform = `rotateY(180deg)translateX(${position}em)`//rotateY(180deg)
+      canoeAndGuyy.style.transform = `rotateY(180deg)translateX(${position}rem)`//rotateY(180deg)
       personAndShovel.style.animation = `row 1s ease-in-out infinite`
     }
     else {//si frene o subo
