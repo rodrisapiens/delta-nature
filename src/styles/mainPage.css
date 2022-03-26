@@ -7,12 +7,7 @@
   -webkit-animation: meet 2s ease forwards;
           animation: meet 2s ease forwards;
 }
-.main
-{
-  position: absolute;
-  top: 80%;
-  left: 20%;
-}
+
 @-webkit-keyframes meet {
   0% {
     letter-spacing: 1px;
@@ -33,6 +28,13 @@
     letter-spacing: normal;
     opacity: 1;
   }
+}
+
+.main {
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  border-bottom: none;
 }
 
 @-webkit-keyframes row {

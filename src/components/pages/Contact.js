@@ -42,7 +42,27 @@ function Contact() {
         }
         else messageElement.classList.add("good")
         console.log(goodToGo)
-        return goodToGo;
+        if(goodToGo)
+        {
+            sendEmail(email,name,phone,message)
+        }
+    }
+    function sendEmail(email,name,phone,message)
+    {
+        window.Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "deltaandnature@gmail.com",
+            Password : "686E15DAAA9997969268B30E8A046E030061", 
+            To : 'rodrigoniveyroreguero@gmail.com',
+            From : `deltaandnature@gmail.com`,
+            Subject : "nuevo mensaje de delta y nature",
+            Body : `nombre: ${name}<br>
+                    email: ${email}<br>
+                    telefono: ${phone}<br>
+                    mensaje: ${message}`
+        }).then(
+          message => alert(message)
+        );
     }
     return (
         <div className='contactPage'>

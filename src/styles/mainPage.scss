@@ -16,7 +16,13 @@
         }
     }
 }
-
+.main
+{
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    border-bottom: none;
+}
 @keyframes row {
     100% {
         transform: rotateZ(10deg);
