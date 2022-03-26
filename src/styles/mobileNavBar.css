@@ -102,8 +102,8 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -ms-flex-line-pack: end;
-      align-content: end;
+  -ms-flex-line-pack: center;
+      align-content: center;
   -webkit-animation: apear 1s forwards;
           animation: apear 1s forwards;
 }

@@ -17,7 +17,9 @@
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-top: 2rem;
+  position: absolute;
+  top: 7%;
+  left: 15%;
 }
 
 .enviame {
@@ -32,12 +34,57 @@
 
 .contactBox {
   border: solid;
-  border-width: thin;
+  border-width: medium;
   border-color: white;
   border-radius: 5px;
   height: 60vh;
   width: 90vw;
   display: -ms-grid;
   display: grid;
+  padding: 5%;
+}
+
+.fill {
+  display: -ms-grid;
+  display: grid;
+}
+
+.contactFill {
+  background-color: transparent;
+  outline: none;
+  font-family: inherit;
+  height: 50%;
+  border: solid;
+  border-color: white;
+  border-width: medium;
+  color: white;
+  padding: 1rem;
+}
+
+.contactMessage {
+  background-color: transparent;
+  background-color: transparent;
+  outline: none;
+  font-family: inherit;
+  border: solid;
+  border-color: white;
+  border-width: medium;
+  color: white;
+  padding: 1rem;
+  margin-top: -2rem;
+}
+
+.big {
+  width: 10rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: -ms-grid;
+  display: grid;
+  border-width: medium;
+  margin-top: -1rem;
 }
 /*# sourceMappingURL=contact.css.map */
