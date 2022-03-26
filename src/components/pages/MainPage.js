@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import ToursMainPage from './MainSections/ToursMainPage.js';
 import EducationMainPage from './MainSections/EducationMainPage.js';
 import AboutMainPage from './MainSections/AboutMainPage.js';
+import { Link } from "react-router-dom";
 import "../../styles/mainPage.css"
 function MainPage({ bg, CanoeAndGuy, english }) {
   const positions = useRef([0, 0])//[0]is actual position,[1],prev.
@@ -106,6 +107,7 @@ function MainPage({ bg, CanoeAndGuy, english }) {
         </div>
         <CanoeAndGuy className='CanoeAndGuyy' />
         <img src={bg} alt={"bg"} className='bg'></img>
+        <Link to="/Contact" className='more main'>Hablemos!</Link>
       </div>
       <ToursMainPage />
       <EducationMainPage />

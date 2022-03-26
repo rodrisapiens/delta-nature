@@ -7,7 +7,12 @@
   -webkit-animation: meet 2s ease forwards;
           animation: meet 2s ease forwards;
 }
-
+.main
+{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
 @-webkit-keyframes meet {
   0% {
     letter-spacing: 1px;
