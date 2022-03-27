@@ -18,7 +18,8 @@ html {
 
 body {
   width: 100%;
-  background-color: #597e4e;
+  background: -webkit-gradient(linear, left top, left bottom, from(#597e4e), to(#293e3c));
+  background: linear-gradient(#597e4e, #293e3c);
 }
 
 .app {

@@ -49,9 +49,7 @@ function Contact() {
     function sendEmail(email,name,phone,message)
     {
         window.Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "deltaandnature@gmail.com",
-            Password : "686E15DAAA9997969268B30E8A046E030061", 
+            SecureToken:"7f081748-d6eb-4663-88ba-dbfcd5f33321",
             To : 'rodrigoniveyroreguero@gmail.com',
             From : `deltaandnature@gmail.com`,
             Subject : "nuevo mensaje de delta y nature",
