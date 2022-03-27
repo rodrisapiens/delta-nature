@@ -67,8 +67,6 @@
     z-index: 1;
 }
 .PresentationCard {
-    /*     background-color: #3c5141;
- */
     background-color: #666b67;
     border-radius: 5px;
     overflow: hidden;
@@ -87,8 +85,9 @@
     color: white;
     gap: 1rem;
     position: absolute;
-    transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(-50%);
     left: 50%;
+    top: 150%;
 }
 .cardPhoto {
     width: 12rem;
