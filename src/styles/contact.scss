@@ -6,14 +6,15 @@
     align-items: center;
     padding: 5%;
 }
-.warn
-{
-    position: absolute;
+.warn {
+    position: relative;
     justify-self: center;
-    color: #FF4040;
+    color: #ff4040;
     font-family: inherit;
     font-weight: 400;
     font-size: 1rem;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
 }
 
 .contactBirds {
@@ -131,15 +132,12 @@
         font-weight: 300;
     }
 }
-.good
-{
+.good {
     border-color: greenyellow;
 }
-.error
-{
-    border-color: #FF4040;;
+.error {
+    border-color: #ff4040;
 }
-.green
-{
+.green {
     color: greenyellow;
 }

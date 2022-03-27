@@ -73,6 +73,7 @@ function Contact() {
         <div className='contactPage'>
             <div className="contactConteiner">
                 <h1 className="enviame">Enviame un mensaje</h1>
+                <small id='warn' className='warn'></small>
                 <div className="contactBox">
                     <div className="fill">
                         <label htmlFor="name" className='myPlaceHolder'>Nombre</label>
@@ -84,7 +85,6 @@ function Contact() {
                     </div>
                     <label htmlFor="message" className='myPlaceLastHolder'>Tú Mensaje</label>
                     <textarea id="message" className='contactMessage'/>
-                    <small id='warn' className='warn'></small>
                 </div>
                 <button className="more big" onClick={handleSend}>ENVIAR</button>
             </div>
