@@ -1,9 +1,12 @@
 import React from 'react'
 import "../../styles/contact.css"
 function Contact() {
-    let goodToGo=true;
+  
     function handleSend()
     {
+        let goodToGo=true;
+        const warn= document.getElementById("warn");
+         warn.innerText="";
        const name= document.getElementById("name").value.trim();
        const email= document.getElementById("email").value.trim();
        const phone= document.getElementById("phone").value.trim();
@@ -45,9 +48,11 @@ function Contact() {
         {
             sendEmail(email,name,phone,message)
         }
+        else {warn.classList.remove("green");warn.innerText="Error,Completá todos los espacios :)";}
     }
     function sendEmail(email,name,phone,message)
-    {
+    {        const warn= document.getElementById("warn");
+
         window.Email.send({
             SecureToken:"7f081748-d6eb-4663-88ba-dbfcd5f33321",
             To : 'rodrigoniveyroreguero@gmail.com',
@@ -58,9 +63,12 @@ function Contact() {
                     telefono: ${phone}<br>
                     mensaje: ${message}`
         }).then(
-          message => alert(message)
+          message =>{if(message==="OK"){
+            warn.classList.add("green")  
+            warn.innerText="Mensaje enviado correctamente :)"}}
         );
     }
+    
     return (
         <div className='contactPage'>
             <div className="contactConteiner">
@@ -76,6 +84,7 @@ function Contact() {
                     </div>
                     <label htmlFor="message" className='myPlaceLastHolder'>Tú Mensaje</label>
                     <textarea id="message" className='contactMessage'/>
+                    <small id='warn' className='warn'></small>
                 </div>
                 <button className="more big" onClick={handleSend}>ENVIAR</button>
             </div>

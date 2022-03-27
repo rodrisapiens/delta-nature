@@ -107,7 +107,6 @@ function MainPage({ bg, CanoeAndGuy, english }) {
         </div>
         <CanoeAndGuy className='CanoeAndGuyy' />
         <img src={bg} alt={"bg"} className='bg'></img>
-        <Link to="/Contact" className='more main'>Hablemos!</Link>
       </div>
       <ToursMainPage />
       <EducationMainPage />

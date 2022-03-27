@@ -12,6 +12,16 @@
   padding: 5%;
 }
 
+.warn {
+  position: absolute;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: #FF4040;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 .contactBirds {
   width: 80vw;
   height: -webkit-fit-content;
@@ -165,6 +175,10 @@
 }
 
 .error {
-  border-color: red;
+  border-color: #FF4040;
+}
+
+.green {
+  color: greenyellow;
 }
 /*# sourceMappingURL=contact.css.map */

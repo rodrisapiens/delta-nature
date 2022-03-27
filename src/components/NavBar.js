@@ -20,6 +20,7 @@ function NavBar() {
           <Link to={"/Tours"} className={page==="Tours"?'navBtnD On':'navBtnD'} onClick={() => setPage("Tours")}>Tours</Link>
           <Link to={"/AboutUs"} className={page==="AboutUS"?'navBtnD On':'navBtnD'} onClick={() => setPage("AboutUS")}>About Me</Link>
           <Link to={"/Education"} className={page==="Education"?'navBtnD On':'navBtnD'} onClick={() => setPage("Education")}>Education</Link>
+          <Link to={"/Contact"} className={page==="Contact"?'navBtnD On':'navBtnD'} onClick={() => setPage("Contact")}>Contacto</Link>
           <Link to={"/StartYourJourney"} className={'navBtnS'} onClick={() => setPage("StartYourJourney")}><LongArrow className='longArrow'/>Start Journey</Link>
         </ul>
       </div>
