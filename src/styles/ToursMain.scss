@@ -45,6 +45,7 @@
     top: 64%;
     position: relative;
     left: 1%;
+    border-radius: 5px;
 }
 .rigthBirdConteiner {
     overflow: hidden;
@@ -53,6 +54,8 @@
     position: relative;
     left: 63%;
     top: 1%;
+    border-radius: 5px;
+
 }
 .centerBirdsConteiner {
     overflow: hidden;
@@ -61,6 +64,8 @@
     top: 22%;
     width: 12rem;
     height: 12rem;
+    border-radius: 5px;
+
 }
 .cardConteiner {
     position: relative;
@@ -85,8 +90,12 @@
     color: white;
     gap: 1rem;
     position: absolute;
-    transform: translateX(-50%) translateY(0);
+    transform: translateX(-50%) translateY(-50%);
     left: 50%;
+    top: 150vh;
+    height: 100%;
+    align-content: center;
+    align-items: center;
 }
 .cardPhoto {
     width: 12rem;
@@ -177,7 +186,7 @@
         position: absolute;
         grid-template-columns: 1fr 1fr;
         gap: 5rem;
-        transform: translateX(-50%) translateY(0);
+        transform: translateX(-50%) translateY(-50%);
         left: 50%;
     }
     .left {

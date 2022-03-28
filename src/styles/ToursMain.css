@@ -58,6 +58,7 @@
   top: 64%;
   position: relative;
   left: 1%;
+  border-radius: 5px;
 }
 
 .rigthBirdConteiner {
@@ -67,6 +68,7 @@
   position: relative;
   left: 63%;
   top: 1%;
+  border-radius: 5px;
 }
 
 .centerBirdsConteiner {
@@ -76,6 +78,7 @@
   top: 22%;
   width: 12rem;
   height: 12rem;
+  border-radius: 5px;
 }
 
 .cardConteiner {
@@ -106,9 +109,16 @@
   color: white;
   gap: 1rem;
   position: absolute;
-  -webkit-transform: translateX(-50%) translateY(0);
-          transform: translateX(-50%) translateY(0);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   left: 50%;
+  top: 150vh;
+  height: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cardPhoto {
@@ -219,8 +229,8 @@
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    -webkit-transform: translateX(-50%) translateY(0);
-            transform: translateX(-50%) translateY(0);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
     left: 50%;
   }
   .left {
