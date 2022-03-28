@@ -1,5 +1,5 @@
 import React from 'react'
-import cardContent from "../api";
+import cardContent from "../api.js";
 function PresentationCard({card}) {
     return (
         <div className={card===0?'cardConteiner left': 'rigth cardConteiner'}>
