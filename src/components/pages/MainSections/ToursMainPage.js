@@ -9,8 +9,8 @@ function ToursMainPage() {
   return (
     <div className='ToursMainPage'>
       <div className="whereToAdventure">
-        <h1 className="whereTo">Where to</h1>
-        <h1 className="Adventure?">Adventure?</h1>
+        <h1 className="whereTo">Elegí tu</h1>
+        <h1 className="Adventure?">Paseo</h1>
       </div>
       <div className="birds">
         <div className="rigthBirdConteiner">

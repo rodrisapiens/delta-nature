@@ -17,10 +17,11 @@
   display: flex;
   position: relative;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: -30%;
+  gap: .5rem;
 }
 
 .birds {
@@ -30,6 +31,9 @@
   display: grid;
   z-index: 0;
   top: -7%;
+  height: 100%;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .rigthBird {
@@ -132,6 +136,11 @@
 .cardText {
   width: 10rem;
   margin-top: 1rem;
+  word-break: break-all;
+}
+
+.cardTitle {
+  width: 10rem;
 }
 
 .more {
@@ -182,9 +191,9 @@
   }
   .whereToAdventure {
     font-size: 2rem;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    top: -3rem;
   }
   .birds {
     -ms-grid-columns: 1fr 1fr 1fr;

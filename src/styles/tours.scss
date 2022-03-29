@@ -1,0 +1,59 @@
+.tours
+{
+    display: grid;
+}
+.deltaTerraPage
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/deltaTerra.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.deltaTerraPageTitle
+{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+   height: fit-content;
+   padding: 1rem;    
+   position: relative;
+   top: 30%;
+   text-align: center;
+}
+.BigInfoDeltaTerra
+{
+    display: grid;
+    gap: 1rem;
+}
+.paraDeltaTerra
+{
+    background-color: rgba($color: black, $alpha:.4);
+    width: 100%;
+    height: fit-content;
+    font-weight: 300;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.bonanzaPage
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/chicaRemando.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 20%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+.contrastButton
+{
+    background-color: rgba($color: black, $alpha: .5);
+}
