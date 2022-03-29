@@ -1,7 +1,11 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "../../styles/aboutUs.css";
 import { aboutMe } from "../../api";
 function AboutUs() {
+  useEffect(() => {
+    window.scroll(0,0)
+  }, [])
+  
   return (
     <div className='aboutUs'>
       <div className="firstAboutPage">
