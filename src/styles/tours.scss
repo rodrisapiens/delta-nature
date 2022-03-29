@@ -57,3 +57,19 @@
 {
     background-color: rgba($color: black, $alpha: .5);
 }
+@media all and (min-width:600px) {
+    .deltaTerraPageTitle
+    {
+        font-size: 4rem;
+        top: -20%;
+    }
+    .BigInfoDeltaTerra
+    {
+        justify-items: center;
+    }
+    .paraDeltaTerra
+    {
+        width: 40rem;
+    }
+    
+}

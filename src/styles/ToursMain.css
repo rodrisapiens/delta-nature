@@ -21,7 +21,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   top: -30%;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .birds {
@@ -261,6 +261,16 @@
     left: 0;
     -webkit-transform: translateX(0%);
             transform: translateX(0%);
+  }
+  .cardTitle {
+    width: 100%;
+  }
+  .cardTextConteiner {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=ToursMain.css.map */

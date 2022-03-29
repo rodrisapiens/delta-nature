@@ -148,4 +148,15 @@
             transform: translateX(0);
   }
 }
+
+@media all and (min-width: 600px) {
+  .miniInfo {
+    width: 60rem;
+  }
+  .IconsAndNames {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 /*# sourceMappingURL=EducationMainPage.css.map */

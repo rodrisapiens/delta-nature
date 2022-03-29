@@ -52,6 +52,7 @@
     font-weight: 200;
     animation: apearMiniInfo .2s ease forwards;
     height: fit-content;
+
     @keyframes apearMiniInfo {
         0% {
             height: 0%;
@@ -78,5 +79,16 @@
 @keyframes apearEducation {
     100% {
         transform: translateX(0);
+    }
+}
+@media all and (min-width:600px) {
+    .miniInfo
+    {
+        width: 60rem;
+
+    }
+    .IconsAndNames
+    {
+        justify-content: center;
     }
 }

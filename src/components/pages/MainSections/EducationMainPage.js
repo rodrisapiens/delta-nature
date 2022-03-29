@@ -41,7 +41,7 @@ function EducationMainPage() {
     }
   } 
   return (
-    <div className='EducationMainPage'>
+    <div className='EducationMainPage' id="Education">
       <h1 className='titleEducationMain'>Talleres de Educación Ambiental</h1>
       <div className="IconsAndNames">
         <div className="birdSection" onClick={(e)=>{ handleSectionClicked(e)}}>
@@ -65,7 +65,7 @@ function EducationMainPage() {
         </div>
         {mariOn&&<p className="miniInfo">{miniInfo.mariposas}</p>}
       </div>
-      <Link to={"/Education"} className="more">y más</Link>
+      <Link to={"/Education"} className="more">Ver más</Link>
     </div>
   )
 }

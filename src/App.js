@@ -29,7 +29,7 @@ function App() {
         {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : <NavBar/>}
         {first?null:<MobileNavBar setNavOn={setNavOn}navOn={navOn}/>}
         <Routes>
-          <Route path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english} />} />
+          <Route exact path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english} />} />
           <Route path="/Tours" element={<Tours />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Education" element={<Education />} />

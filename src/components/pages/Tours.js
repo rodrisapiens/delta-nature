@@ -1,9 +1,15 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import deltaTerra from "../../images/deltaTerra.png";
 import "../../styles/tours.css";
 import { Link } from 'react-router-dom';
 import { bigInfo } from "../../api.js";
 function Tours() {
+  useEffect(() => {
+    
+  window.scroll(0,0);
+    
+  }, [])
+  
   return (
     <div className='toursPage'>
       <div className="deltaTerraPage">
@@ -22,7 +28,7 @@ function Tours() {
             {bigInfo.deltaTerra3}
           </p>
         </div>
-        <Link to={"/StartJourney"} className='more contrastButton'>Reserva tu lugar</Link>
+        <Link to={"/Contact"} className='more contrastButton'>Reserva tu lugar</Link>
       </div>
       <div className="bonanzaPage">
         <h1 className="deltaTerraPageTitle">Dia en estancia</h1>
@@ -37,7 +43,7 @@ function Tours() {
             {bigInfo.bonanza2}
           </p>
         </div>
-        <Link to={"/StartJourney"} className='more contrastButton'>Reserva tu lugar</Link>
+        <Link to={"/Contact"} className='more contrastButton'>Reserva tu lugar</Link>
       </div>
     </div >
   )

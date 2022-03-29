@@ -1,5 +1,10 @@
 import leftImage from "./images/sustitutionPhotoLeft.png"
 import rigthtImage from "./images/sustitutionPhotoRigth.png"
+import frontGuide from "./images/frontGuide.jpg"
+import reserv from "./images/reserva.jpg";
+import avistaje from "./images/AVISTAJE.jpg"
+import bioCorredor from "./images/cartelBiocorredor.jpg"
+import atardecer from "./images/atardecerMisiones.jpg"
 const cardContent=[
     {
         "name":"Reserva Delta Terra",
@@ -26,5 +31,18 @@ export const bigInfo={
     "bonanza0":'Navegaremos por varios ríos hasta llegar a la Estancia en el rio Carapachay donde nos esperan en la Estancia con un rico asado para almorzar.',
     "bonanza1":'Caminaremos por sus senderos para conocer su flora y fauna. Por la tarde tendremos opción de realizar actividades como canoa, cabalgata o tirolesa.',
     "bonanza2":'Es un lugar hermoso y con mucho espacio para conocer y disfrutar de la belleza del delta.'
+}
+export const aboutMe={
+    "p0":"Mi nombre es Maria Isabel Reguero, tengo 57 años, 2 hijos y soy Lic. en Administración (UBA).Hace 10 años decidí ponerme a estudiar sobre el lugar donde siempre viví, Tigre. Me recibí de Guia de Turismo de Tigre y comencé a estudiar más profundamente sobre la naturaleza. Me recibí de GUARDAPARQUE. (Instituto Perito Moreno. CABA). También intervengo en varias actividades de conservación y restauración del ambiente: Te cuento:",
+    "img0":frontGuide,
+    "p1":"RESERVA NATURAL RINCON DE MILBERG- TIGRE.Estamos impulsando la creación de esta Reserva urbana en Tigre, para que sirva como lugar de esparcimiento, educación ambiental, conservación de ambientes nativos y restauración de ambientes antropizados. IG reserva_natural_municipaltigre.",
+    "img1":reserv,
+    "p2":"COA TIGRE DELTA Soy parte de este grupo de observación de aves que pertenece a Aves Argentinas y hacemos relevamientos de aves y salidas de avistajes, abierto a la comunidad. IG coatigredelta",
+    "img2":avistaje,
+    "p3":"BIOCORREDOR PAUL GROUSSAR. EL TALAR Presente en el 2021, un proyecto a la Municipalidad de Tigre para crear el Biocorredor en la calle Paul Groussac en el Talar. Y lo concretamos en nov. 2021. Fue todo un éxito!!.  IG. biocorredor.paul.groussac",
+    "img3":bioCorredor,
+    "p4":"VOLUNTARIADO.Estuve voluntariando en nov. 2021, en la Reserva “El Puente Verde” de Aves Argentinas en Comandante Andresito, Misiones. Fue una experiencia fascinante !! ",
+    "img4":atardecer
+
 }
 export default cardContent;
