@@ -138,4 +138,65 @@
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
 }
+
+@media all and (min-width: 600px) {
+  .presentation {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .presentationText {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .frontGuideConteiner {
+    bottom: 0;
+    width: 90%;
+  }
+  .frontGuide {
+    left: 0;
+    width: 100%;
+    top: -15%;
+  }
+  .reserva {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cartelReservaConteiner {
+    height: 18rem;
+  }
+  .cartelReserva {
+    top: -95%;
+  }
+  .coa {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .avistaje {
+    top: -50%;
+  }
+  .bioCorredor {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cartelMari {
+    left: 0;
+    top: -35%;
+  }
+  .voluntariado {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .atardecer {
+    top: -319%;
+  }
+}
 /*# sourceMappingURL=aboutUs.css.map */

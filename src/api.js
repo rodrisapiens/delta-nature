@@ -1,5 +1,5 @@
 import leftImage from "./images/sustitutionPhotoLeft.png"
-import rigthtImage from "./images/sustitutionPhotoRigth.png"
+import rigthtImage from "./images/nuevoSustituto.png"
 import frontGuide from "./images/frontGuide.jpg"
 import reserv from "./images/reserva.jpg";
 import avistaje from "./images/AVISTAJE.jpg"

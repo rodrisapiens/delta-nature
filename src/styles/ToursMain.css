@@ -256,6 +256,10 @@
   .cardText {
     font-size: 1rem;
     width: 14rem;
+    word-break: normal;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
   }
   .moreE {
     left: 0;
