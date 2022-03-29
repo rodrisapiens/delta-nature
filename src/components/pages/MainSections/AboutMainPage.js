@@ -14,7 +14,7 @@ function AboutMainPage() {
             Hola! Soy Maria Isabel Reguero.
             estudié administración en UBA,
             Soy Guia de turismo De tigre y
-            guardaparques nacional.
+            guardaparques.
           </p>
           <p className="textAboutMain">
             Soy miembro del centro de

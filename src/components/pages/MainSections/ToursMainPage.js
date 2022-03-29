@@ -24,7 +24,7 @@ function ToursMainPage() {
         </div>
       </div>
       <div className="cards">
-        <PresentationCard card={0} />
+        <PresentationCard card={0}/>
         <PresentationCard card={1} />
       </div>
       <Link to={"/Tours"} className="moreE">Leer mas!</Link>

@@ -11,7 +11,7 @@ function EducationMainPage() {
   const [humeOn,setHumeOn]=useState(false);
   const [ecoOn,setEcoOn]=useState(false);
   const [mariOn,setMariOn]=useState(false);
-   function handleSectionClicked(e)
+  function handleSectionClicked(e)
   {
     if(e.currentTarget.classList[0]==="birdSection")
     {
@@ -65,8 +65,8 @@ function EducationMainPage() {
         </div>
         {mariOn&&<p className="miniInfo">{miniInfo.mariposas}</p>}
       </div>
-      <Link to={"/Education"} className="more">Ver más</Link>
-    </div>
+       <Link to={"/Contact"} className="more">Contactame</Link>
+     </div>
   )
 }
 
