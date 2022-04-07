@@ -131,6 +131,7 @@
 
 .cardTextConteiner {
   padding: 1rem;
+  color: white;
 }
 
 .cardText {
@@ -260,6 +261,8 @@
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
             hyphens: auto;
+    color: white;
+    font-family: inherit;
   }
   .moreE {
     left: 0;
@@ -268,6 +271,8 @@
   }
   .cardTitle {
     width: 100%;
+    color: white;
+    font-family: inherit;
   }
   .cardTextConteiner {
     display: -ms-grid;

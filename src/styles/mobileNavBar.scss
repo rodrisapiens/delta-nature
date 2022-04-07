@@ -75,3 +75,10 @@ a {
     transform: rotateZ(-90deg);
     margin-top: .1em;
 }
+.arrowHeadHablemos
+{
+    width: .5em;
+    transform: rotateZ(-90deg);
+    margin-top: .1em;
+    animation: longArrow 2s ease-in-out infinite;
+}

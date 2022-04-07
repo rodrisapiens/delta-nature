@@ -57,6 +57,18 @@
     width: 1rem;
     fill: white;
     transform: rotate(-90deg);
+    animation: longArrow 2s ease-in-out infinite;
+    @keyframes longArrow {
+        50%{
+            transform: translateX(.4rem)rotate(-90deg);
+        }
+        100%{
+            transform: translateX(0rem)rotate(-90deg);
+            }
+        
+    
+
+}
 }
 .On {
     font-weight: 800;

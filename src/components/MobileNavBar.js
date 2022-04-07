@@ -12,7 +12,7 @@ function MobileNavBar({ setNavOn, navOn}) {
         <Link to={"/Tours"} className={'navBtn'} onClick={() => setNavOn(!navOn)}>Paseos<Arrow className='arrowHead'/></Link>
         <Link to={"/AboutUs"} className={'navBtn'} onClick={() => setNavOn(!navOn)}>Sobre mí<Arrow className='arrowHead'/></Link>
         <HashLink to={"/#Education"} smooth className={'navBtn'} onClick={() => setNavOn(!navOn)}>Educación<Arrow className='arrowHead'/></HashLink>
-        <Link to={"/Contact"} className={'navBtn'} onClick={() => setNavOn(!navOn)}>Hablemos!<Arrow className='arrowHead'/></Link>
+        <Link to={"/Contact"} className={'navBtn'} onClick={() => setNavOn(!navOn)}>Hablemos!<Arrow className='arrowHeadHablemos'/></Link>
 {/*         <Link to={"/StartYourJourney"} className={'navBtn'} onClick={() => setNavOn(!navOn)}>Start Journey <Arrow className='arrowHead'/></Link>
  */}      </ul>
     </div>

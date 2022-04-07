@@ -1,26 +1,25 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useContext} from 'react'
 import deltaTerra from "../../images/deltaTerra.png";
 import "../../styles/tours.css";
 import { Link } from 'react-router-dom';
 import { bigInfo } from "../../api.js";
+import { ToursContext } from '../../context';
 function Tours() {
+  const {toursPage,setToursPage}=useContext(ToursContext);
   useEffect(() => {
-    
-  window.scroll(0,0);
-  window.addEventListener("scroll",handleScroll);
-  window.addEventListener("mousemove",handleMouseMove)
-    
+    const deltaTerra= document.querySelector(".deltaTerraPage");
+    const estancia= document.querySelector(".bonanzaPage");
+    if(toursPage==="deltaTerra")
+    {
+      deltaTerra.scrollIntoView({behavior:'smooth'});
+    }
+    else
+    {
+      estancia.scrollIntoView({behavior:'smooth'});
+    }
+  
   }, [])
-  function handleScroll()
-  {
-    const deltaTerra=document.querySelector(".deltaTerraPage");
-    //deltaTerra.style.background-position-y=`${scrollY}`;
-  }
-  function handleMouseMove(e)
-  {
-    const deltaTerra=document.querySelector(".deltaTerraPage");
-    deltaTerra.style.backgroundPositionX=`(${((window.innerWidth / 2 - e.pageX))}px)`
-  }
+  
   return (
     <div className='toursPage'>
       <div className="deltaTerraPage">
@@ -39,9 +38,9 @@ function Tours() {
             {bigInfo.deltaTerra3}
           </p>
         </div>
-        <Link to={"/Contact"} className='more contrastButton'>Reserva tu lugar</Link>
+        <Link to={"/Contact"} className='more contrastButton' >Reserva tu lugar</Link>
       </div>
-      <div className="bonanzaPage" id="bonanza">
+      <div className="bonanzaPage" id="estancia">
         <h1 className="deltaTerraPageTitle">Dia en estancia</h1>
         <div className="BigInfoDeltaTerra">
           <p className="paraDeltaTerra">
@@ -54,7 +53,7 @@ function Tours() {
             {bigInfo.bonanza2}
           </p>
         </div>
-        <Link to={"/Contact"} className='more contrastButton'>Reserva tu lugar</Link>
+        <Link to={"/Contact"} className='more contrastButton' >Reserva tu lugar</Link>
       </div>
     </div >
   )

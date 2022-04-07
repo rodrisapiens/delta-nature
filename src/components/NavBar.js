@@ -17,7 +17,7 @@ function NavBar() {
     return (
       <div className='navBarConteiner'>
         <ul className="navBarD">
-          <Link to={"/"} className={page==="Home"?'navBtnD On':'navBtnD'} onClick={() => {setPage("Home");}}>Home</Link>
+          <Link to={"/"}className={page==="Home"?'navBtnD On':'navBtnD'} onClick={() => {setPage("Home");}}>Home</Link>
           <Link to={"/Tours"} className={page==="Tours"?'navBtnD On':'navBtnD'} onClick={() => setPage("Tours")}>Paseos</Link>
           <Link to={"/AboutUs"} className={page==="AboutUS"?'navBtnD On':'navBtnD'} onClick={() => setPage("AboutUS")}>Sobre mi</Link>
           <HashLink to={"/#Education"} smooth className={page==="Education"?'navBtnD On':'navBtnD'} onClick={() => setPage("Education")}>Educación</HashLink>

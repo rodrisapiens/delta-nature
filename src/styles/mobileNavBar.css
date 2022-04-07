@@ -127,4 +127,13 @@ a {
           transform: rotateZ(-90deg);
   margin-top: .1em;
 }
+
+.arrowHeadHablemos {
+  width: .5em;
+  -webkit-transform: rotateZ(-90deg);
+          transform: rotateZ(-90deg);
+  margin-top: .1em;
+  -webkit-animation: longArrow 2s ease-in-out infinite;
+          animation: longArrow 2s ease-in-out infinite;
+}
 /*# sourceMappingURL=mobileNavBar.css.map */

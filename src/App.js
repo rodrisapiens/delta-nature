@@ -11,6 +11,7 @@ import { ReactComponent as Logo } from "./images/logo.svg";
 import logo from "./images/logo(1).png";
 import NavBarIcons from "./components/NavBarIcons"
 import MobileNavBar from "./components/MobileNavBar"
+import { ToursContext } from './context';
 import bg from "./images/forestAndWater.png"
 /* import Header from './Header';
  */import './styles/app.css';
@@ -19,7 +20,9 @@ function App() {
   const [english, setEnglish] = useState(false);
   const [navOn, setNavOn] = useState(false)
   const[first,setFirst]=useState(true);
+  const [toursPage,setToursPage]=useState("deltaTerra");
   return (
+    <ToursContext.Provider value={{toursPage,setToursPage}}>
     <BrowserRouter>
       <div className='app'>
         <div className="logoAndName">
@@ -27,7 +30,7 @@ function App() {
           <h1 className="name">Delta&Nature</h1>
         </div>
         {window.innerWidth < 600 ? <NavBarIcons setNavOn={setNavOn} navOn={navOn}setFirst={setFirst}/> : <NavBar/>}
-        {first?null:<MobileNavBar setNavOn={setNavOn}navOn={navOn}/>}
+        {first?null:<MobileNavBar setNavOn={setNavOn} navOn={navOn}/>}
         <Routes>
           <Route exact path="/" element={<MainPage CanoeAndGuy={CanoeAndGuy} bg={bg} english={english} />} />
           <Route path="/Tours" element={<Tours />} />
@@ -38,6 +41,7 @@ function App() {
         </Routes>
       </div>
     </BrowserRouter>
+    </ToursContext.Provider>
   );
 }
 
