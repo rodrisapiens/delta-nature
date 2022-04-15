@@ -4,7 +4,7 @@
   display: -ms-grid;
   display: grid;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   -webkit-animation: apear 1s ease forwards;
           animation: apear 1s ease forwards;
   background-color: white;
@@ -40,7 +40,7 @@
   display: -ms-grid;
   display: grid;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   -webkit-animation: desapear 1s ease forwards;
           animation: desapear 1s ease forwards;
   background-color: white;

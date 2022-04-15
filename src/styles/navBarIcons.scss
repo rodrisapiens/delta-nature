@@ -6,7 +6,7 @@
     background-color: transparent;
     border-style: none;
     outline: none;
-    z-index: 3;
+    z-index: 6;
     rect {
         fill: transparent;
     }
@@ -56,7 +56,7 @@
 }
 .crossTrunks {
     position: absolute;
-    z-index: 3;
+    z-index: 6;
     #bottomTrunk {
         animation: crossB 1s ease forwards;
         transform-box: fill-box;

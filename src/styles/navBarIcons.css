@@ -6,7 +6,7 @@
   background-color: transparent;
   border-style: none;
   outline: none;
-  z-index: 3;
+  z-index: 6;
 }
 
 .NavIcon rect {
@@ -110,7 +110,7 @@
 
 .crossTrunks {
   position: absolute;
-  z-index: 3;
+  z-index: 6;
 }
 
 .crossTrunks #bottomTrunk {

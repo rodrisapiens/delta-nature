@@ -3,7 +3,7 @@
     height: 100vh;
     display: grid;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     animation: apear 1s ease forwards;
     background-color: white;
     justify-content: center;
@@ -22,7 +22,7 @@
     height: 100vh;
     display: grid;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
     animation: desapear 1s ease forwards;
     background-color: white;
     justify-content: center;
