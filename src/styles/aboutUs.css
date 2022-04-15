@@ -1,220 +1,208 @@
 .aboutUs {
   width: 100%;
-  min-height: 100vh;
-  color: white;
-}
-
-.firstAboutPage {
+  height: 100vh;
+  color: black;
   display: -ms-grid;
   display: grid;
-  height: 100vh;
-  width: 100%;
+  justify-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   padding: 5%;
   position: relative;
-  top: 5%;
-  gap: 1rem;
-  margin-bottom: 5rem;
-}
-
-.secondAboutPage {
-  display: -ms-grid;
-  display: grid;
-  height: 100vh;
-  width: 100%;
-  padding: 1rem;
-  gap: 1rem;
-}
-
-.presentationText {
-  font-size: 0.9rem;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
-  font-weight: 200;
-}
-
-.presentation {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.frontGuideConteiner {
-  width: 100%;
   overflow: hidden;
-  height: 18rem;
-  position: relative;
-  bottom: -15%;
-  border-radius: 50%;
-  border: solid;
-  border-width: thin;
 }
 
-.bioCorredor {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-}
-
-.coa {
+.aboutCard {
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  gap: 1rem;
+  padding: 5%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  margin-bottom: 5vh;
+  z-index: 0;
 }
 
-.frontGuide {
-  width: 20rem;
+.PaperAndClip {
+  width: 90vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   position: relative;
-  height: 20rem;
-  width: 29rem;
-  left: -66%;
 }
 
-.reserva {
-  width: 100%;
-  display: -ms-grid;
-  display: grid;
-  gap: 1rem;
+.white {
+  z-index: 4;
+  top: 60%;
 }
 
-.cartelReservaConteiner {
-  width: 20rem;
-  height: 20rem;
-  overflow: hidden;
-  width: 100%;
-  height: 13rem;
-  border-radius: 50% 0% 50% 0%;
-  border: solid;
-  border-width: thin;
+.white #Rectangle,
+.white #Vector_1 {
+  fill: #fff;
 }
 
-.cartelReserva {
-  width: 140%;
+.gray {
+  z-index: 3;
+  top: 55%;
+}
+
+.gray #Rectangle,
+.gray #Vector_1 {
+  fill: #191a19;
+}
+
+.beige {
+  z-index: 2;
+  top: 50%;
+}
+
+.beige #Rectangle,
+.beige #Vector_1 {
+  fill: #d8e9a8;
+}
+
+.darkGreen {
+  z-index: 1;
+  top: 45%;
+}
+
+.darkGreen #Rectangle,
+.darkGreen #Vector_1 {
+  fill: #1e5128;
+}
+
+.ligthGreen {
+  z-index: 0;
+  top: 40%;
+}
+
+.ligthGreen .clip #Vector_1 {
+  fill: #4e9f3d;
+}
+
+.ligthGreen #Rectangle {
+  fill: #4e9f3d;
+}
+
+@-webkit-keyframes AboutCardAppear {
+  100% {
+    -webkit-transform: translateY(-20vh);
+            transform: translateY(-20vh);
+  }
+}
+
+@keyframes AboutCardAppear {
+  100% {
+    -webkit-transform: translateY(-20vh);
+            transform: translateY(-20vh);
+  }
+}
+
+@-webkit-keyframes AboutCardDesappear {
+  0% {
+    -webkit-transform: translateY(-20vh);
+            transform: translateY(-20vh);
+  }
+  100% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+}
+
+@keyframes AboutCardDesappear {
+  0% {
+    -webkit-transform: translateY(-20vh);
+            transform: translateY(-20vh);
+  }
+  100% {
+    -webkit-transform: translateY(0vh);
+            transform: translateY(0vh);
+  }
+}
+
+.infoAboutConteiner {
   position: relative;
-  left: -20%;
-  top: -55%;
-}
-
-.avistajeConteiner {
-  overflow: hidden;
-  width: 100%;
-  height: 13rem;
-  border-radius: 0% 50%;
-  border: solid;
-  border-width: thin;
-}
-
-.avistaje {
-  position: relative;
   width: 100%;
 }
 
-.cartelMariConteiner {
-  width: 20rem;
-  height: 20rem;
-  overflow: hidden;
-  width: auto;
-  height: 12.5rem;
-  border-radius: 50%;
-  border: solid;
-  border-width: thin;
+.aboutImage {
+  width: 30vw;
+  position: absolute;
+  top: 1vh;
+  left: 60%;
+  border-radius: 10px;
 }
 
-.cartelMari {
-  height: 21rem;
-  position: relative;
-  left: -12%;
+.AboutText {
+  padding: 1%;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 2vh;
+  left: 6%;
+  font-size: 0.6rem;
+  width: 10rem;
+  line-height: 1.3;
 }
 
-.atardecerConteiner {
-  width: auto;
-  height: 10.5rem;
-  overflow: hidden;
-  border-radius: 50%;
-  border: solid;
-  border-width: thin;
+.rectangle {
+  width: 90vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0%;
 }
 
-.atardecer {
-  width: 100%;
-  position: relative;
-  top: -50%;
-}
-
-.voluntariado {
-  display: -ms-grid;
-  display: grid;
-  gap: 1rem;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+.clip {
+  width: 15vw;
+  position: absolute;
+  top: -1.4vh;
+  left: 83%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 @media all and (min-width: 600px) {
-  .presentation {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .presentationText {
+  .AboutText {
     font-size: 1rem;
-    text-align: center;
+    width: 20rem;
   }
-  .frontGuideConteiner {
-    bottom: 0;
-    width: 80%;
+  .aboutImage {
+    height: 30vh;
+    width: 20vw;
+    left: 57%;
   }
-  .frontGuide {
-    left: 0;
+  .clip {
+    width: 5vw;
+    left: 90%;
+  }
+  .white {
+    top: 30%;
+  }
+  .gray {
+    top: 25%;
+  }
+  .beige {
+    top: 20%;
+  }
+  .darkGreen {
+    top: 15%;
+  }
+  .ligthGreen {
+    top: 10%;
+  }
+  .rectangle {
     width: 100%;
-    top: -15%;
+    height: auto;
   }
-  .reserva {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .cartelReservaConteiner {
-    height: 18rem;
-  }
-  .cartelReserva {
-    top: -95%;
-  }
-  .coa {
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .avistaje {
-    top: -50%;
-  }
-  .bioCorredor {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .cartelMari {
-    left: 0;
-    top: -35%;
-  }
-  .voluntariado {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .atardecer {
-    top: -319%;
-  }
-  .cartelMariConteiner {
-    width: 15rem;
+  .aboutCard {
+    width: 60vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */
