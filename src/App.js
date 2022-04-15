@@ -12,7 +12,7 @@ import logo from "./images/logo(1).png";
 import NavBarIcons from "./components/NavBarIcons"
 import MobileNavBar from "./components/MobileNavBar"
 import { ToursContext } from './context';
-import bg from "./images/forestAndWater.png"
+import bg from "./images/forestAndWater-1.webp"
 /* import Header from './Header';
  */import './styles/app.css';
 import NavBar from './components/NavBar';

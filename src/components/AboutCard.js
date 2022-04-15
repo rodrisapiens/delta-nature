@@ -2,8 +2,6 @@ import React, { useState,useEffect } from 'react'
 import "../styles/aboutUs.css"
 import { ReactComponent as Clip } from "../images/Clip.svg"
 import { ReactComponent as Rectangle } from "../images/Rectangle.svg"
-import { ReactComponent as PaperAndClip } from "../images/ClipYHojaBlanco.svg"
-
 function AboutCard({ type, text, img }) {
     const [on, setOn] = useState(false);
     useEffect(() => {

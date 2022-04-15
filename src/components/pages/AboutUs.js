@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import AboutCard from '../AboutCard';
 import "../../styles/aboutUs.css";
 import { aboutMe } from "../../api";
-import { ReactComponent as PaperAndClip } from "../../images/ClipYHojaBlanco.svg"
 function AboutUs() {
   useEffect(() => {
     window.scroll(0, 0)

@@ -33,7 +33,7 @@ export const bigInfo={
     "bonanza2":'Es un lugar hermoso y con mucho espacio para conocer y disfrutar de la belleza del delta.'
 }
 export const aboutMe={
-    "p0":"Mi nombre es Maria Isabel Reguero, tengo 57 años, 2 hijos y soy Lic. en Administración (UBA).Hace 10 años decidí ponerme a estudiar sobre el lugar donde siempre viví, Tigre. Me recibí de Guia de Turismo de Tigre y comencé a estudiar más profundamente sobre la naturaleza. Me recibí de GUARDAPARQUE. (Instituto Perito Moreno. CABA). También intervengo en varias actividades de conservación y restauración del ambiente: Te cuento:",
+    "p0":"Mi nombre es Maria Isabel Reguero, tengo 57 años, 2 hijos y soy Lic. en Administración (UBA).Hace 10 años decidí ponerme a estudiar sobre el lugar donde siempre viví, Tigre. Me recibí de Guia de Turismo de Tigre y comencé a estudiar más profundamente sobre la naturaleza. Me recibí de GUARDAPARQUE. (Instituto Perito Moreno. CABA). También intervengo en varias actividades de conservación y restauración del ambiente.",
     "img0":frontGuide,
     "p1":"RESERVA NATURAL RINCON DE MILBERG- TIGRE.Estamos impulsando la creación de esta Reserva urbana en Tigre, para que sirva como lugar de esparcimiento, educación ambiental, conservación de ambientes nativos y restauración de ambientes antropizados. IG reserva_natural_municipaltigre.",
     "img1":reserv,
