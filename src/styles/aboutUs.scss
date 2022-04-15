@@ -11,7 +11,6 @@
 }
 .aboutCard {
     width: 100%;
-    padding: 5%;
     height: fit-content;
     position: absolute;
     margin-bottom: 5vh;
@@ -69,12 +68,12 @@
 }
 @keyframes AboutCardAppear {
     100% {
-        transform: translateY(-20vh);
+        transform: translateY(-25vh);
     }
 }
 @keyframes AboutCardDesappear {
     0% {
-        transform: translateY(-20vh);
+        transform: translateY(-25vh);
     }
     100% {
         transform: translateY(0vh);
@@ -85,10 +84,10 @@
     width: 100%;
 }
 .aboutImage {
+    left: 62%;
     width: 30vw;
     position: absolute;
     top: 1vh;
-    left: 60%;
     border-radius: 10px;
 }
 .AboutText {
@@ -97,7 +96,7 @@
     border-radius: 10px;
     position: absolute;
     top: 2vh;
-    left: 6%;
+    left: 10%;
     font-size: 0.6rem;
     width: 10rem;
     line-height: 1.3;
@@ -107,6 +106,7 @@
     height: fit-content;
     position: absolute;
     top: 0%;
+    left: 5%;
 }
 .clip {
     width: 15vw;
@@ -121,8 +121,8 @@
         width: 20rem;
     }
     .aboutImage {
-        height: 30vh;
-        width: 20vw;
+        height: 33vh;
+        width: 23vw;
         left: 57%;
     }
     .clip {
@@ -131,23 +131,23 @@
     }
     .white {
         
-        top: 30%;
+        top: 55%;
     
         
     }
     .gray {
       
-        top: 25%;
+        top: 50%;
     }
     .beige {
        
-        top: 20%;
+        top: 45%;
     }
     .darkGreen {
-        top: 15%;
+        top: 40%;
     }
     .ligthGreen {
-        top: 10%;
+        top: 35%;
     }
     .rectangle {
         width: 100%;
