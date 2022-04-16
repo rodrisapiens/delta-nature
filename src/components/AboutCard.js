@@ -24,9 +24,8 @@ function AboutCard({ type, text, img }) {
     }
     return (
         <div className={`aboutCard ${type}`} onClick={handleClick}>
-            <div className={`infoAboutConteiner`} onClick={handleClick}>
-                <Rectangle className='rectangle' onClick={handleClick}/>
-                <img src={img} alt="" className="aboutImage" onClick={handleClick}/>
+            <div className={`infoAboutConteiner ${type}`} onClick={handleClick}>
+               <img src={img} alt="" className="aboutImage" onClick={handleClick}/>
                 <Clip className='clip' onClick={handleClick}/>
                 <p className="AboutText" onClick={handleClick}>{text}</p>
             </div>

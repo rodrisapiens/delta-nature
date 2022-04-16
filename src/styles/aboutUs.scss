@@ -15,11 +15,20 @@
     position: absolute;
     margin-bottom: 5vh;
     z-index: 0;
+    display: flex;
+    justify-content: center;
 }
 .PaperAndClip {
     width: 90vw;
     height: fit-content;
     position: relative;
+}
+.rectangle {
+    width: 90vw;
+    height: fit-content;
+    position: absolute;
+    top: 0%;
+    left: 5%;
 }
 .white {
     z-index: 4;
@@ -35,6 +44,9 @@
     #Vector_1 {
         fill: #191a19;
     }
+    .infoAboutConteiner {
+        background-color: #191a19;
+    }
     z-index: 3;
     top: 55%;
 }
@@ -42,6 +54,9 @@
     #Rectangle,
     #Vector_1 {
         fill: #d8e9a8;
+    }
+    .infoAboutConteiner {
+        background-color: #d8e9a8;
     }
     z-index: 2;
     top: 50%;
@@ -51,6 +66,9 @@
     #Vector_1 {
         fill: #1e5128;
     }
+    .infoAboutConteiner {
+        background-color: #1e5128;
+    }
     z-index: 1;
     top: 45%;
 }
@@ -59,6 +77,9 @@
         #Vector_1 {
             fill: #4e9f3d;
         }
+    }
+    .infoAboutConteiner {
+        background-color: #4e9f3d;
     }
     #Rectangle {
         fill: #4e9f3d;
@@ -81,8 +102,10 @@
 }
 .infoAboutConteiner {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 31vh;
+    background-color: white;
+    border-radius: 10px;
 }
 .aboutImage {
     left: 62%;
@@ -97,23 +120,17 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 10%;
+    left: 5%;
     font-size: 0.7rem;
     width: 12rem;
     line-height: 1.3;
-}
-.rectangle {
-    width: 90vw;
-    height: fit-content;
-    position: absolute;
-    top: 0%;
-    left: 5%;
+    padding: 1%;
 }
 .clip {
     width: 15vw;
     position: absolute;
-    top: -1.4vh;
-    left: 83%;
+    top: -5%;
+    left: 84%;
     height: fit-content;
 }
 @media all and (min-width: 600px) {
@@ -121,29 +138,25 @@
         font-size: 1rem;
         width: 20rem;
         transform: translateY(0);
-        top: 10%;
+        top: 5%;
     }
     .aboutImage {
         height: 33vh;
         width: 23vw;
-        left: 57%;
+        left: 55%;
     }
     .clip {
         width: 5vw;
-        left: 90%;
+        left: 92%;
+        top: -4%;
     }
     .white {
-        
         top: 55%;
-    
-        
     }
     .gray {
-      
         top: 50%;
     }
     .beige {
-       
         top: 45%;
     }
     .darkGreen {
@@ -156,9 +169,11 @@
         width: 100%;
         height: auto;
     }
-    .aboutCard{
+    .aboutCard {
         width: 60vw;
         height: fit-content;
-
+    }
+    .infoAboutConteiner{
+        height: 45vh;
     }
 }

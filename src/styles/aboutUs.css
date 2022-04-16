@@ -21,6 +21,12 @@
   position: absolute;
   margin-bottom: 5vh;
   z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .PaperAndClip {
@@ -29,6 +35,16 @@
   height: -moz-fit-content;
   height: fit-content;
   position: relative;
+}
+
+.rectangle {
+  width: 90vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  top: 0%;
+  left: 5%;
 }
 
 .white {
@@ -51,6 +67,10 @@
   fill: #191a19;
 }
 
+.gray .infoAboutConteiner {
+  background-color: #191a19;
+}
+
 .beige {
   z-index: 2;
   top: 50%;
@@ -59,6 +79,10 @@
 .beige #Rectangle,
 .beige #Vector_1 {
   fill: #d8e9a8;
+}
+
+.beige .infoAboutConteiner {
+  background-color: #d8e9a8;
 }
 
 .darkGreen {
@@ -71,6 +95,10 @@
   fill: #1e5128;
 }
 
+.darkGreen .infoAboutConteiner {
+  background-color: #1e5128;
+}
+
 .ligthGreen {
   z-index: 0;
   top: 40%;
@@ -78,6 +106,10 @@
 
 .ligthGreen .clip #Vector_1 {
   fill: #4e9f3d;
+}
+
+.ligthGreen .infoAboutConteiner {
+  background-color: #4e9f3d;
 }
 
 .ligthGreen #Rectangle {
@@ -122,8 +154,10 @@
 
 .infoAboutConteiner {
   position: relative;
-  width: 100%;
+  width: 90%;
   height: 31vh;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .aboutImage {
@@ -141,27 +175,18 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: 10%;
+  left: 5%;
   font-size: 0.7rem;
   width: 12rem;
   line-height: 1.3;
-}
-
-.rectangle {
-  width: 90vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  position: absolute;
-  top: 0%;
-  left: 5%;
+  padding: 1%;
 }
 
 .clip {
   width: 15vw;
   position: absolute;
-  top: -1.4vh;
-  left: 83%;
+  top: -5%;
+  left: 84%;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -173,16 +198,17 @@
     width: 20rem;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    top: 10%;
+    top: 5%;
   }
   .aboutImage {
     height: 33vh;
     width: 23vw;
-    left: 57%;
+    left: 55%;
   }
   .clip {
     width: 5vw;
-    left: 90%;
+    left: 92%;
+    top: -4%;
   }
   .white {
     top: 55%;
@@ -208,6 +234,9 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  .infoAboutConteiner {
+    height: 45vh;
   }
 }
 /*# sourceMappingURL=aboutUs.css.map */
