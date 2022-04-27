@@ -27,7 +27,6 @@
   height: fit-content;
   -ms-grid-column-align: center;
       justify-self: center;
-  z-index: -1;
 }
 
 .descriptionTours {
@@ -41,6 +40,7 @@
   border-radius: 10px;
   width: 18rem;
   font-size: .9rem;
+  z-index: 2;
 }
 
 .nextNewTours {
@@ -56,6 +56,7 @@
   width: -moz-fit-content;
   width: fit-content;
   font-size: .9rem;
+  z-index: 2;
 }
 
 .movingBg {

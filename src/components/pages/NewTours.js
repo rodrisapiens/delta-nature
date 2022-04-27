@@ -80,7 +80,7 @@ function NewTours({ }) {
           {handleDescription()}
         </h3>
         <Sign className='wodenSign' onClick={handleClick} />
-        <h3 className="nextNewTours">Siguiente</h3>
+        <h3 className="nextNewTours" onClick={handleClick}>Siguiente</h3>
       </div>
       <CanoeAndGuy className='canoeAndGuyTours' />
       <button onClick={() => { toursPage === "deltaTerra" ? setToursPage("estancia") : setToursPage("deltaTerra"); setCount(0); }}>{toursPage === "deltaTerra" ? 'Conocé tambien el paseo "Estancia en la isla"' : 'Conocé tambien el paseo "Reserva Delta Terra"'}</button>

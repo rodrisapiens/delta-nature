@@ -18,7 +18,6 @@
     position: relative;
     height: fit-content;
     justify-self: center;
-    z-index: -1;
 }
 .descriptionTours{
     top: 25%;
@@ -30,6 +29,7 @@
     border-radius: 10px;
     width: 18rem;
     font-size: .9rem;
+    z-index: 2;
 }
 .nextNewTours{
     top: 75%;
@@ -41,6 +41,7 @@
     border-radius: 10px;
     width: fit-content;
     font-size: .9rem;
+    z-index: 2;
 }
 .movingBg {
     width: 100%;
