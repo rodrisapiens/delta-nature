@@ -1,10 +1,16 @@
 import leftImage from "./images/sustitutionPhotoLeft.png"
 import rigthtImage from "./images/nuevoSustituto.png"
-import frontGuide from "./images/frontGuide.jpg"
-import reserv from "./images/reserva.jpg";
-import avistaje from "./images/AVISTAJE.jpg"
-import bioCorredor from "./images/cartelBiocorredor.jpg"
-import atardecer from "./images/atardecerMisiones.jpg"
+import frontGuide from "./images/frontGuide.webp"
+import reserv from "./images/reserva.webp";
+import avistaje from "./images/AVISTAJE.webp"
+import bioCorredor from "./images/cartelBiocorredor.webp"
+import atardecer from "./images/atardecerMisiones.webp"
+import lancha from "./images/lanchaPasajeros.webp"
+import harvor from "./images/estacionFluvial-1.webp"
+import muelles from "./images/muellesDelta.webp"
+import sendero from "./images/sendero.webp"
+import rowing from "./images/chicaRemando.png"
+
 const cardContent=[
     {
         "name":"Reserva Delta Terra",
@@ -24,13 +30,28 @@ export const miniInfo={
 "mariposas":'Proyecto "Cuidemos las mariposas y su hábitat-armado de jardín para mariposas" Conoceremos las distintas especies de mariposas, sus características, metamorfosis y plantas hospederas.'
 }
 export const bigInfo={
+    "puertoTigre":"saldremos de la estación fluvial de tigre",
+    "imgPuertoTigre":harvor,
     "deltaTerra0":'Navegamos hasta el rio Espera y caminamos por un cañaveral alucinante hasta la Reserva Natural Delta Terra.',
-    "deltaTerra1":'Visitamos su centro de interpretación y nos adentramos por sus senderos para recorrer el centro de la isla. Seguimos el paseo caminando por el camino de sirga del Arroyo Rama Negra hasta llegar a un resto de isla, donde podremos descansar y almorzar.',
-    "deltaTerra2":'Mas tarde seguiremos nuestro camino disfrutando y conociendo todo el encanto de este ambiente tan particular que son los humedales insulares.',
-    "deltaTerra3":'Regresamos en lancha hasta Tigre continente.',
+    "imgDelta0":lancha,
+    "deltaTerra1":'Visitamos su centro de interpretación y nos adentramos por sus senderos para recorrer el centro de la isla.',
+    "imgDelta1":sendero,
+    "deltaTerra2":'Seguimos el paseo caminando por el camino de sirga del Arroyo Rama Negra hasta llegar a un resto de isla, donde podremos descansar y almorzar.',
+    "imgDelta2":rowing,
+    "deltaTerra3":'Mas tarde seguiremos nuestro camino disfrutando y conociendo todo el encanto de este ambiente tan particular que son los humedales insulares.',
+    "imgDelta3":muelles,
+    "return":'Regresamos en lancha hasta Tigre continente.',
+    "imgReturn":lancha,
     "bonanza0":'Navegaremos por varios ríos hasta llegar a la Estancia en el rio Carapachay donde nos esperan en la Estancia con un rico asado para almorzar.',
-    "bonanza1":'Caminaremos por sus senderos para conocer su flora y fauna. Por la tarde tendremos opción de realizar actividades como canoa, cabalgata o tirolesa.',
-    "bonanza2":'Es un lugar hermoso y con mucho espacio para conocer y disfrutar de la belleza del delta.'
+    "imgBonanza0":lancha,
+    "bonanza1":'Caminaremos por sus senderos para conocer su flora y fauna.',
+    "imgBonanza1":sendero,
+    "bonanza2":'Por la tarde tendremos opción de realizar actividades como canoa, cabalgata o tirolesa.',
+    "imgBonanza2":rowing,
+    "bonanza3":'Es un lugar hermoso y con mucho espacio para conocer y disfrutar de la belleza del delta.',
+    "imgBonanza3":muelles,
+    "return":'Regresamos en lancha hasta Tigre continente.',
+    "imgReturn":lancha
 }
 export const aboutMe={
     "p0":"Mi nombre es Maria Isabel Reguero, tengo 57 años, 2 hijos y soy Lic. en Administración (UBA).Hace 10 años decidí ponerme a estudiar sobre el lugar donde siempre viví, Tigre. Me recibí de Guia de Turismo de Tigre y comencé a estudiar más profundamente sobre la naturaleza. Me recibí de GUARDAPARQUE. (Instituto Perito Moreno. CABA). También intervengo en varias actividades de conservación y restauración del ambiente.",

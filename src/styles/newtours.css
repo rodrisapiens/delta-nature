@@ -1,0 +1,88 @@
+.newTours {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.signAndText {
+  position: relative;
+  left: 50%;
+  top: 10%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+}
+
+.wodenSign {
+  width: 20rem;
+  position: relative;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  z-index: -1;
+}
+
+.descriptionTours {
+  top: 25%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 10px;
+  width: 18rem;
+  font-size: .9rem;
+}
+
+.nextNewTours {
+  top: 75%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
+  background-color: white;
+  padding: .5rem;
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: .9rem;
+}
+
+.movingBg {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.bgTours {
+  height: 100vh;
+  position: relative;
+  left: -80%;
+}
+
+.movingBg {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+@media all and (min-width: 600px) {
+  .bgTours {
+    width: 100%;
+    position: relative;
+    top: -40%;
+    left: 0%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=newtours.css.map */

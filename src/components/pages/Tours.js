@@ -1,9 +1,9 @@
 import React,{useEffect,useContext} from 'react'
-import deltaTerra from "../../images/deltaTerra.png";
 import "../../styles/tours.css";
 import { Link } from 'react-router-dom';
 import { bigInfo } from "../../api.js";
 import { ToursContext } from '../../context';
+import bgImage from "../../images/atardecerMisiones.jpg"
 function Tours() {
   const {toursPage,setToursPage}=useContext(ToursContext);
   useEffect(() => {
@@ -19,7 +19,12 @@ function Tours() {
     }
   
   }, [])
-  
+  function HandleChangeBg()
+  {
+    const bonanzaPage=document.querySelector(".bonanzaPage");
+    bonanzaPage.style.backgroundImage=`url(${bgImage})`;
+    console.log("hols")
+  }
   return (
     <div className='toursPage'>
       <div className="deltaTerraPage">
@@ -54,6 +59,7 @@ function Tours() {
           </p>
         </div>
         <Link to={"/Contact"} className='more contrastButton' >Reserva tu lugar</Link>
+        <button onClick={HandleChangeBg}>Change bg</button>
       </div>
     </div >
   )

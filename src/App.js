@@ -2,13 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './components/pages/MainPage';
 import Contact from './components/pages/Contact';
-import Tours from './components/pages/Tours';
+import Tours from './components/pages/NewTours';
 import AboutUs from './components/pages/AboutUs';
 import Education from './components/pages/Education';
 import StartYourJourney from './components/pages/StartYourJourney';
 import { ReactComponent as CanoeAndGuy } from "./images/canoeAndGuy.svg";
 import { ReactComponent as Logo } from "./images/logo.svg";
-import logo from "./images/logo(1).png";
 import NavBarIcons from "./components/NavBarIcons"
 import MobileNavBar from "./components/MobileNavBar"
 import { ToursContext } from './context';

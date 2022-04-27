@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "../../../styles/AboutMainPage.css"
-import guide from "../../../images/guia.jpg"
+import guide from "../../../images/guia.webp"
 import { ReactComponent as Instagram } from "../../../images/instagram.svg"
 const instaPage = "https://www.instagram.com/deltaytigre/";
 function AboutMainPage() {
