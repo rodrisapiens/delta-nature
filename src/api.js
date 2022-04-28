@@ -10,6 +10,7 @@ import harvor from "./images/estacionFluvial-1.webp"
 import muelles from "./images/muellesDelta.webp"
 import sendero from "./images/sendero.webp"
 import rowing from "./images/chicaRemando.png"
+import lanchaVuelta from "./images/lanchaVuelta.webp"
 
 const cardContent=[
     {
@@ -51,7 +52,7 @@ export const bigInfo={
     "bonanza3":'Es un lugar hermoso y con mucho espacio para conocer y disfrutar de la belleza del delta.',
     "imgBonanza3":muelles,
     "return":'Regresamos en lancha hasta Tigre continente.',
-    "imgReturn":lancha
+    "imgReturn":lanchaVuelta
 }
 export const aboutMe={
     "p0":"Mi nombre es Maria Isabel Reguero, tengo 57 años, 2 hijos y soy Lic. en Administración (UBA).Hace 10 años decidí ponerme a estudiar sobre el lugar donde siempre viví, Tigre. Me recibí de Guia de Turismo de Tigre y comencé a estudiar más profundamente sobre la naturaleza. Me recibí de GUARDAPARQUE. (Instituto Perito Moreno. CABA). También intervengo en varias actividades de conservación y restauración del ambiente.",
