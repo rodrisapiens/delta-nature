@@ -58,6 +58,32 @@
     width: 100%;
     overflow: hidden;
 }
+.ChangeNewTours{
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:2;
+    height: 10rem;
+}
+.newToursBtn{
+    transform: translateX(-50%);
+    position: relative;
+    z-index: 3;
+    padding: 1rem;
+    border-radius: 10px;
+    border: solid;
+    border-width: thin;
+    border-color: white;
+    color: white;
+    left: 50%;
+    top: 20%;
+    height: 5rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
 @media all and (min-width:600px) {
     .bgTours {
         width: 100%;

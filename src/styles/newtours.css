@@ -77,6 +77,43 @@
   overflow: hidden;
 }
 
+.ChangeNewTours {
+  position: relative;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+  height: 10rem;
+}
+
+.newToursBtn {
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  z-index: 3;
+  padding: 1rem;
+  border-radius: 10px;
+  border: solid;
+  border-width: thin;
+  border-color: white;
+  color: white;
+  left: 50%;
+  top: 20%;
+  height: 5rem;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 @media all and (min-width: 600px) {
   .bgTours {
     width: 100%;

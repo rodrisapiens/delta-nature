@@ -6,10 +6,9 @@ import { Link } from 'react-router-dom';
 import { ReactComponent as Sign } from "../../images/cartelFlecha.svg";
 import MovingBg from '../MovingBg';
 import { ReactComponent as CanoeAndGuy } from "../../images/canoeAndGuy.svg";
-function NewTours({ }) {
+function NewTours() {
   const { toursPage, setToursPage } = useContext(ToursContext);
   const [count, setCount] = useState(0);
-  const [data, setData] = useState([]);
   const MAXDELTA = 5;
   const MAXESTANCIA = 5;
   function handleClick() {
@@ -82,8 +81,8 @@ function NewTours({ }) {
         <Sign className='wodenSign' onClick={handleClick} />
         <h3 className="nextNewTours" onClick={handleClick}>Siguiente</h3>
       </div>
-      <CanoeAndGuy className='canoeAndGuyTours' />
-      <button onClick={() => { toursPage === "deltaTerra" ? setToursPage("estancia") : setToursPage("deltaTerra"); setCount(0); }}>{toursPage === "deltaTerra" ? 'Conocé tambien el paseo "Estancia en la isla"' : 'Conocé tambien el paseo "Reserva Delta Terra"'}</button>
+      <button className='ChangeNewTours' onClick={() => { toursPage === "deltaTerra" ? setToursPage("estancia") : setToursPage("deltaTerra"); setCount(0); }}>{toursPage === "deltaTerra" ? 'Conocé tambien el paseo "Estancia en la isla"' : 'Conocé tambien el paseo "Reserva Delta Terra"'}</button>
+      <Link to={"/Contact"} className='newToursBtn' >Reservá tu lugar</Link>
     </div>
   )
 }
